@@ -11,7 +11,6 @@ module top (
     output PIN_8,
     output PIN_9,
     output PIN_10,
-    // output PIN_11,  Pin looks to be dead.
     output PIN_12,
     output PIN_13,
 
@@ -23,6 +22,7 @@ module top (
     input PIN_5,
     input PIN_6,
     input PIN_7,
+    input PIN_11,
     input PIN_14,
     input PIN_15,
     input PIN_16,
@@ -60,7 +60,7 @@ module top (
 
     // Interrupt input.
     wire interrupt;
-    assign interrupt = PIN_31;
+    assign interrupt = PIN_11;
 
     // Address inputs.
     wire a0;
