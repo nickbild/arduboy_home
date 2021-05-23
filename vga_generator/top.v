@@ -363,7 +363,7 @@ module top (
         // Increment / reset counters.
         h_counter <= h_counter + 1'b1;
 
-        if (h_counter == 263) // 264
+        if (h_counter == 264) // 264
         begin
           h_counter <= 0;
           v_counter <= v_counter + 1'b1;
