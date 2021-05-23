@@ -18,7 +18,7 @@ module top (
     input PIN_1,
     input PIN_2,
     input PIN_3,
-    input PIN_4,
+    // input PIN_4, // Pin is dead :(
     input PIN_5,
     input PIN_6,
     input PIN_7,
@@ -82,7 +82,7 @@ module top (
     assign a0 = PIN_1;
     assign a1 = PIN_2;
     assign a2 = PIN_3;
-    assign a3 = PIN_4;
+    assign a3 = PIN_31;
     assign a4 = PIN_5;
     assign a5 = PIN_6;
     assign a6 = PIN_7;
