@@ -64,19 +64,19 @@
 .gate SB_LUT4 I0=v_counter[5] I1=v_counter[1] I2=v_counter[4] I3=v_counter[0] O=$abc$8057$n298
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100000000000000
-.gate SB_LUT4 I0=$abc$8057$n177 I1=$abc$8057$n173 I2=$false I3=$false O=$abc$8057$n176
+.gate SB_LUT4 I0=$abc$8057$n175 I1=$abc$8057$n177 I2=$false I3=$false O=$abc$8057$n178
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 0100
-.gate SB_LUT4 I0=$abc$8057$n178 I1=$abc$8057$n177 I2=$abc$8057$n173 I3=$false O=$abc$8057$n181
+.gate SB_LUT4 I0=$abc$8057$n173 I1=$abc$8057$n175 I2=$abc$8057$n177 I3=$false O=$abc$8057$n181
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01000000
-.gate SB_LUT4 I0=$abc$8057$n182 I1=$abc$8057$n177 I2=$abc$8057$n178 I3=$abc$8057$n173 O=$abc$8057$n186
+.gate SB_LUT4 I0=$abc$8057$n182 I1=$abc$8057$n175 I2=$abc$8057$n177 I3=$abc$8057$n173 O=$abc$8057$n186
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100000000000000
 .gate SB_LUT4 I0=$abc$8057$n187 I1=$abc$8057$n303 I2=$false I3=$false O=$abc$8057$n192
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 0100
-.gate SB_LUT4 I0=$abc$8057$n173 I1=$abc$8057$n177 I2=$abc$8057$n178 I3=$abc$8057$n182 O=$abc$8057$n303
+.gate SB_LUT4 I0=$abc$8057$n173 I1=$abc$8057$n175 I2=$abc$8057$n177 I3=$abc$8057$n182 O=$abc$8057$n303
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1000000000000000
 .gate SB_LUT4 I0=$abc$8057$n193 I1=$abc$8057$n187 I2=$abc$8057$n303 I3=$false O=$abc$8057$n199
@@ -100,43 +100,43 @@
 .gate SB_LUT4 I0=$abc$8057$n227 I1=$abc$8057$n217 I2=$abc$8057$n309 I3=$false O=$abc$8057$n237
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01000000
-.gate SB_LUT4 I0=$abc$8057$n238 I1=$abc$8057$n312 I2=$abc$8057$n309 I3=$false O=$abc$8057$n249
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
-.param LUT_INIT 01000000
-.gate SB_LUT4 I0=$abc$8057$n217 I1=$abc$8057$n227 I2=$false I3=$false O=$abc$8057$n312
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
-.param LUT_INIT 1000
-.gate SB_LUT4 I0=$abc$8057$n250 I1=$abc$8057$n312 I2=$abc$8057$n238 I3=$abc$8057$n309 O=$abc$8057$n262
+.gate SB_LUT4 I0=$abc$8057$n238 I1=$abc$8057$n217 I2=$abc$8057$n227 I3=$abc$8057$n309 O=$abc$8057$n249
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100000000000000
-.gate SB_LUT4 I0=$abc$8057$n309 I1=$abc$8057$n312 I2=$abc$8057$n315 I3=$false O=$abc$8057$n276
+.gate SB_LUT4 I0=$abc$8057$n250 I1=$abc$8057$n313 I2=$abc$8057$n309 I3=$false O=$abc$8057$n262
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
+.param LUT_INIT 01000000
+.gate SB_LUT4 I0=$abc$8057$n217 I1=$abc$8057$n227 I2=$abc$8057$n238 I3=$false O=$abc$8057$n313
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 10000000
-.gate SB_LUT4 I0=$abc$8057$n263 I1=$abc$8057$n250 I2=$abc$8057$n238 I3=$false O=$abc$8057$n315
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
-.param LUT_INIT 01000000
-.gate SB_LUT4 I0=$abc$8057$n317 I1=$abc$8057$n306 I2=$false I3=$false O=$abc$8057$n290
+.gate SB_LUT4 I0=$abc$8057$n263 I1=$abc$8057$n313 I2=$abc$8057$n250 I3=$abc$8057$n309 O=$abc$8057$n276
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
+.param LUT_INIT 0100000000000000
+.gate SB_LUT4 I0=$abc$8057$n316 I1=PIN_21 I2=$false I3=$false O=$abc$8057$n290
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 1000
-.gate SB_LUT4 I0=$abc$8057$n318 I1=$abc$8057$n200 I2=$abc$8057$n208 I3=PIN_21 O=$abc$8057$n317
+.gate SB_LUT4 I0=$abc$8057$n309 I1=$abc$8057$n313 I2=$abc$8057$n250 I3=$abc$8057$n263 O=$abc$8057$n316
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1000000000000000
-.gate SB_LUT4 I0=$abc$8057$n312 I1=$abc$8057$n238 I2=$abc$8057$n250 I3=$abc$8057$n263 O=$abc$8057$n318
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
-.param LUT_INIT 1000000000000000
-.gate SB_LUT4 I0=$abc$8057$n291 I1=$abc$8057$n320 I2=$false I3=$false O=$abc$8057$n307
+.gate SB_LUT4 I0=$abc$8057$n291 I1=$abc$8057$n318 I2=$false I3=$false O=$abc$8057$n307
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 0100
-.gate SB_LUT4 I0=PIN_21 I1=$abc$8057$n318 I2=$abc$8057$n309 I3=$false O=$abc$8057$n320
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
-.param LUT_INIT 01000000
-.gate SB_LUT4 I0=$abc$8057$n308 I1=$abc$8057$n291 I2=$abc$8057$n320 I3=$false O=$abc$8057$n324
+.gate SB_LUT4 I0=PIN_21 I1=$abc$8057$n316 I2=$false I3=$false O=$abc$8057$n318
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
+.param LUT_INIT 0100
+.gate SB_LUT4 I0=$abc$8057$n309 I1=$abc$8057$n320 I2=$false I3=$false O=$abc$8057$n324
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
+.param LUT_INIT 1000
+.gate SB_LUT4 I0=$abc$8057$n308 I1=$abc$8057$n321 I2=$abc$8057$n250 I3=$abc$8057$n313 O=$abc$8057$n320
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
+.param LUT_INIT 0100000000000000
+.gate SB_LUT4 I0=PIN_21 I1=$abc$8057$n263 I2=$abc$8057$n291 I3=$false O=$abc$8057$n321
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01000000
 .gate SB_LUT4 I0=$abc$8057$n325 I1=$abc$8057$n323 I2=$false I3=$false O=$abc$8057$n342
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 0100
-.gate SB_LUT4 I0=$abc$8057$n320 I1=$abc$8057$n291 I2=$abc$8057$n308 I3=$false O=$abc$8057$n323
+.gate SB_LUT4 I0=$abc$8057$n318 I1=$abc$8057$n291 I2=$abc$8057$n308 I3=$false O=$abc$8057$n323
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 10000000
 .gate SB_LUT4 I0=$abc$8057$n343 I1=$abc$8057$n325 I2=$abc$8057$n323 I3=$false O=$abc$8057$n361
@@ -172,7 +172,7 @@
 .gate SB_LUT4 I0=$abc$8057$n472 I1=$abc$8057$n333 I2=$abc$8057$n448 I3=$abc$8057$n323 O=$abc$8057$n496
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100000000000000
-.gate SB_LUT4 I0=$abc$8057$n497 I1=$abc$8057$n336 I2=$abc$8057$n320 I3=$false O=$abc$8057$n522
+.gate SB_LUT4 I0=$abc$8057$n497 I1=$abc$8057$n336 I2=$abc$8057$n318 I3=$false O=$abc$8057$n522
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01000000
 .gate SB_LUT4 I0=$abc$8057$n337 I1=$abc$8057$n291 I2=$abc$8057$n308 I3=$false O=$abc$8057$n336
@@ -181,42 +181,51 @@
 .gate SB_LUT4 I0=$abc$8057$n333 I1=$abc$8057$n448 I2=$abc$8057$n472 I3=$false O=$abc$8057$n337
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 10000000
-.gate SB_LUT4 I0=$abc$8057$n523 I1=$abc$8057$n336 I2=$abc$8057$n497 I3=$abc$8057$n320 O=$abc$8057$n549
+.gate SB_LUT4 I0=$abc$8057$n523 I1=$abc$8057$n336 I2=$abc$8057$n497 I3=$abc$8057$n318 O=$abc$8057$n549
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100000000000000
-.gate SB_LUT4 I0=$abc$8057$n550 I1=$abc$8057$n337 I2=$abc$8057$n340 I3=$abc$8057$n323 O=$abc$8057$n577
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
-.param LUT_INIT 0100000000000000
-.gate SB_LUT4 I0=$abc$8057$n497 I1=$abc$8057$n523 I2=$false I3=$false O=$abc$8057$n340
+.gate SB_LUT4 I0=$abc$8057$n323 I1=$abc$8057$n340 I2=$false I3=$false O=$abc$8057$n577
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 1000
-.gate SB_LUT4 I0=$abc$8057$n323 I1=$abc$8057$n337 I2=$abc$8057$n342_1 I3=$false O=$abc$8057$n606
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
-.param LUT_INIT 10000000
-.gate SB_LUT4 I0=$abc$8057$n578 I1=$abc$8057$n550 I2=$abc$8057$n340 I3=$false O=$abc$8057$n342_1
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
-.param LUT_INIT 01000000
-.gate SB_LUT4 I0=$abc$8057$n607 I1=$abc$8057$n320 I2=$abc$8057$n344 I3=$false O=$abc$8057$n636
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
-.param LUT_INIT 01000000
-.gate SB_LUT4 I0=$abc$8057$n336 I1=$abc$8057$n340 I2=$abc$8057$n550 I3=$abc$8057$n578 O=$abc$8057$n344
+.gate SB_LUT4 I0=$abc$8057$n550 I1=$abc$8057$n497 I2=$abc$8057$n523 I3=$abc$8057$n337 O=$abc$8057$n340
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
-.param LUT_INIT 1000000000000000
-.gate SB_LUT4 I0=$abc$8057$n344 I1=$abc$8057$n320 I2=$abc$8057$n607 I3=$false O=$abc$8057$n664
+.param LUT_INIT 0100000000000000
+.gate SB_LUT4 I0=$abc$8057$n578 I1=$abc$8057$n342_1 I2=$abc$8057$n550 I3=$abc$8057$n318 O=$abc$8057$n606
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
+.param LUT_INIT 0100000000000000
+.gate SB_LUT4 I0=$abc$8057$n336 I1=$abc$8057$n497 I2=$abc$8057$n523 I3=$false O=$abc$8057$n342_1
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 10000000
-.gate SB_LUT4 I0=$abc$8057$n410 I1=$abc$8057$n347 I2=memory_data_out_30[9] I3=$abc$8057$n409 O=$abc$8057$n752
+.gate SB_LUT4 I0=$abc$8057$n607 I1=$abc$8057$n318 I2=$abc$8057$n344 I3=$false O=$abc$8057$n636
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
+.param LUT_INIT 01000000
+.gate SB_LUT4 I0=$abc$8057$n342_1 I1=$abc$8057$n550 I2=$abc$8057$n578 I3=$false O=$abc$8057$n344
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
+.param LUT_INIT 10000000
+.gate SB_LUT4 I0=$abc$8057$n344 I1=$abc$8057$n318 I2=$abc$8057$n607 I3=$false O=$abc$8057$n664
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
+.param LUT_INIT 10000000
+.gate SB_LUT4 I0=$abc$8057$n408 I1=$abc$8057$n347 I2=memory_data_out_30[9] I3=$abc$8057$n407 O=$abc$8057$n752
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1111000000010001
-.gate SB_LUT4 I0=$abc$8057$n555 I1=$abc$8057$n399 I2=$abc$8057$n405 I3=$abc$8057$n407 O=$abc$8057$n347
+.gate SB_LUT4 I0=$abc$8057$n348 I1=$abc$8057$n397 I2=$abc$8057$n403_1 I3=$abc$8057$n405 O=$abc$8057$n347
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100111100000000
-.gate SB_LUT4 I0=memory_data_out_19[9] I1=$abc$8057$n352 I2=$abc$8057$n382_1 I3=$abc$8057$n380 O=$abc$8057$n351
+.gate SB_LUT4 I0=memory_data_out_25[9] I1=$abc$8057$n349 I2=$abc$8057$n394 I3=$abc$8057$n396 O=$abc$8057$n348
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
-.param LUT_INIT 0000010100001100
-.gate SB_LUT4 I0=$abc$8057$n379 I1=$abc$8057$n557 I2=memory_data_out_18[9] I3=$abc$8057$n373 O=$abc$8057$n352
+.param LUT_INIT 0000101000000011
+.gate SB_LUT4 I0=$abc$8057$n391 I1=$abc$8057$n350 I2=memory_data_out_24[9] I3=$abc$8057$n392 O=$abc$8057$n349
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0000111111101110
+.gate SB_LUT4 I0=memory_data_out_22[9] I1=$abc$8057$n351 I2=$abc$8057$n388 I3=$abc$8057$n390 O=$abc$8057$n350
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
+.param LUT_INIT 0000010100001100
+.gate SB_LUT4 I0=$abc$8057$n386 I1=$abc$8057$n352 I2=memory_data_out_21[9] I3=$abc$8057$n387 O=$abc$8057$n351
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
+.param LUT_INIT 0000111100010001
+.gate SB_LUT4 I0=$abc$8057$n550_1 I1=$abc$8057$n373 I2=$abc$8057$n380 I3=$abc$8057$n383 O=$abc$8057$n352
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
+.param LUT_INIT 0100111100000000
 .gate SB_LUT4 I0=$abc$8057$n355 I1=$abc$8057$n368 I2=$abc$8057$n369 I3=$abc$8057$n370 O=$abc$8057$n354
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100111100000000
@@ -226,15 +235,15 @@
 .gate SB_LUT4 I0=$abc$8057$n357 I1=$abc$8057$n362_1 I2=$abc$8057$n363 I3=$abc$8057$n364 O=$abc$8057$n356
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100111100000000
-.gate SB_LUT4 I0=$abc$8057$n359 I1=$abc$8057$n358 I2=$abc$8057$n360 I3=$abc$8057$n361_1 O=$abc$8057$n357
+.gate SB_LUT4 I0=$abc$8057$n358 I1=$abc$8057$n359 I2=$abc$8057$n360 I3=$abc$8057$n361_1 O=$abc$8057$n357
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100111100000000
-.gate SB_LUT4 I0=$abc$8057$n671 I1=memory_data_out_3[9] I2=$abc$8057$n674 I3=$false O=$abc$8057$n358
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
-.param LUT_INIT 10110000
-.gate SB_LUT4 I0=memory_data_out_1[9] I1=memory_data_out_2[9] I2=$abc$8057$n668 I3=$abc$8057$n671 O=$abc$8057$n359
+.gate SB_LUT4 I0=memory_data_out_1[9] I1=memory_data_out_2[9] I2=$abc$8057$n668 I3=$abc$8057$n671 O=$abc$8057$n358
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1010110000000000
+.gate SB_LUT4 I0=$abc$8057$n671 I1=memory_data_out_3[9] I2=$abc$8057$n674 I3=$false O=$abc$8057$n359
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
+.param LUT_INIT 10110000
 .gate SB_LUT4 I0=$abc$8057$n674 I1=memory_data_out_4[9] I2=$abc$8057$n677 I3=$false O=$abc$8057$n360
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11100000
@@ -268,58 +277,64 @@
 .gate SB_LUT4 I0=$abc$8057$n704 I1=memory_data_out_14[9] I2=$abc$8057$n707 I3=$false O=$abc$8057$n370
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11100000
-.gate SB_LUT4 I0=$abc$8057$n378 I1=$abc$8057$n374 I2=$abc$8057$n909 I3=$false O=$abc$8057$n373
+.gate SB_LUT4 I0=memory_data_out_17[9] I1=absolute_addr[14] I2=$abc$8057$n374 I3=$false O=$abc$8057$n373
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
+.param LUT_INIT 00001011
+.gate SB_LUT4 I0=$abc$8057$n379 I1=$abc$8057$n375 I2=$abc$8057$n909 I3=$false O=$abc$8057$n374
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01110000
-.gate SB_LUT4 I0=absolute_addr[10] I1=$abc$8057$n377 I2=$abc$8057$n375 I3=$false O=$abc$8057$n374
+.gate SB_LUT4 I0=absolute_addr[10] I1=$abc$8057$n378 I2=$abc$8057$n376 I3=$false O=$abc$8057$n375
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01000000
-.gate SB_LUT4 I0=$abc$8057$n376 I1=absolute_addr[6] I2=absolute_addr[3] I3=absolute_addr[1] O=$abc$8057$n375
+.gate SB_LUT4 I0=$abc$8057$n377 I1=absolute_addr[6] I2=absolute_addr[3] I3=absolute_addr[1] O=$abc$8057$n376
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1000000000000000
-.gate SB_LUT4 I0=absolute_addr[5] I1=absolute_addr[4] I2=absolute_addr[2] I3=absolute_addr[0] O=$abc$8057$n376
+.gate SB_LUT4 I0=absolute_addr[5] I1=absolute_addr[4] I2=absolute_addr[2] I3=absolute_addr[0] O=$abc$8057$n377
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1000000000000000
-.gate SB_LUT4 I0=absolute_addr[9] I1=absolute_addr[8] I2=absolute_addr[7] I3=$false O=$abc$8057$n377
+.gate SB_LUT4 I0=absolute_addr[9] I1=absolute_addr[8] I2=absolute_addr[7] I3=$false O=$abc$8057$n378
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 10000000
-.gate SB_LUT4 I0=absolute_addr[13] I1=absolute_addr[12] I2=absolute_addr[11] I3=absolute_addr[14] O=$abc$8057$n378
+.gate SB_LUT4 I0=absolute_addr[13] I1=absolute_addr[12] I2=absolute_addr[11] I3=absolute_addr[14] O=$abc$8057$n379
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0000000100000000
-.gate SB_LUT4 I0=memory_data_out_17[9] I1=absolute_addr[14] I2=$false I3=$false O=$abc$8057$n379
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
-.param LUT_INIT 0100
-.gate SB_LUT4 I0=$abc$8057$n378 I1=$abc$8057$n381_1 I2=$abc$8057$n907 I3=$false O=$abc$8057$n380
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
-.param LUT_INIT 01110000
-.gate SB_LUT4 I0=$abc$8057$n375 I1=$abc$8057$n377 I2=absolute_addr[10] I3=$false O=$abc$8057$n381_1
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
-.param LUT_INIT 10000000
-.gate SB_LUT4 I0=$abc$8057$n383 I1=$abc$8057$n374 I2=$abc$8057$n905 I3=$false O=$abc$8057$n382_1
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
-.param LUT_INIT 01110000
-.gate SB_LUT4 I0=absolute_addr[13] I1=absolute_addr[12] I2=absolute_addr[14] I3=absolute_addr[11] O=$abc$8057$n383
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
-.param LUT_INIT 0001000000000000
-.gate SB_LUT4 I0=memory_data_out_20[9] I1=$abc$8057$n382_1 I2=$false I3=$false O=$abc$8057$n384
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
-.param LUT_INIT 0100
-.gate SB_LUT4 I0=$abc$8057$n387 I1=$abc$8057$n374 I2=$abc$8057$n901 I3=$false O=$abc$8057$n386
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
-.param LUT_INIT 01110000
-.gate SB_LUT4 I0=absolute_addr[13] I1=absolute_addr[11] I2=absolute_addr[12] I3=absolute_addr[14] O=$abc$8057$n387
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
-.param LUT_INIT 0001000000000000
-.gate SB_LUT4 I0=$abc$8057$n383 I1=$abc$8057$n381_1 I2=$abc$8057$n903 I3=$false O=$abc$8057$n388
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
-.param LUT_INIT 01110000
-.gate SB_LUT4 I0=memory_data_out_23[9] I1=$abc$8057$n391 I2=$abc$8057$n392 I3=$false O=$abc$8057$n390
+.gate SB_LUT4 I0=memory_data_out_18[9] I1=$abc$8057$n374 I2=$abc$8057$n381_1 I3=$false O=$abc$8057$n380
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 00000111
-.gate SB_LUT4 I0=$abc$8057$n387 I1=$abc$8057$n381_1 I2=$abc$8057$n899 I3=$false O=$abc$8057$n391
+.gate SB_LUT4 I0=$abc$8057$n379 I1=$abc$8057$n382_1 I2=$abc$8057$n907 I3=$false O=$abc$8057$n381_1
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01110000
-.gate SB_LUT4 I0=$abc$8057$n393 I1=$abc$8057$n374 I2=$abc$8057$n897 I3=$false O=$abc$8057$n392
+.gate SB_LUT4 I0=$abc$8057$n376 I1=$abc$8057$n378 I2=absolute_addr[10] I3=$false O=$abc$8057$n382_1
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
+.param LUT_INIT 10000000
+.gate SB_LUT4 I0=memory_data_out_19[9] I1=$abc$8057$n381_1 I2=$abc$8057$n384 I3=$false O=$abc$8057$n383
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
+.param LUT_INIT 00001011
+.gate SB_LUT4 I0=$abc$8057$n385 I1=$abc$8057$n375 I2=$abc$8057$n905 I3=$false O=$abc$8057$n384
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
+.param LUT_INIT 01110000
+.gate SB_LUT4 I0=absolute_addr[13] I1=absolute_addr[12] I2=absolute_addr[14] I3=absolute_addr[11] O=$abc$8057$n385
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
+.param LUT_INIT 0001000000000000
+.gate SB_LUT4 I0=$abc$8057$n384 I1=memory_data_out_20[9] I2=$false I3=$false O=$abc$8057$n386
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
+.param LUT_INIT 1000
+.gate SB_LUT4 I0=$abc$8057$n385 I1=$abc$8057$n382_1 I2=$abc$8057$n903 I3=$false O=$abc$8057$n387
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
+.param LUT_INIT 01110000
+.gate SB_LUT4 I0=$abc$8057$n389 I1=$abc$8057$n382_1 I2=$abc$8057$n899 I3=$false O=$abc$8057$n388
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
+.param LUT_INIT 01110000
+.gate SB_LUT4 I0=absolute_addr[13] I1=absolute_addr[11] I2=absolute_addr[12] I3=absolute_addr[14] O=$abc$8057$n389
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
+.param LUT_INIT 0001000000000000
+.gate SB_LUT4 I0=$abc$8057$n389 I1=$abc$8057$n375 I2=$abc$8057$n901 I3=$false O=$abc$8057$n390
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
+.param LUT_INIT 01110000
+.gate SB_LUT4 I0=memory_data_out_23[9] I1=$abc$8057$n388 I2=$false I3=$false O=$abc$8057$n391
+.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
+.param LUT_INIT 0100
+.gate SB_LUT4 I0=$abc$8057$n393 I1=$abc$8057$n375 I2=$abc$8057$n897 I3=$false O=$abc$8057$n392
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01110000
 .gate SB_LUT4 I0=absolute_addr[13] I1=absolute_addr[14] I2=absolute_addr[12] I3=absolute_addr[11] O=$abc$8057$n393
@@ -328,241 +343,241 @@
 .gate SB_LUT4 I0=absolute_addr[12] I1=absolute_addr[11] I2=$abc$8057$n395 I3=$abc$8057$n893 O=$abc$8057$n394
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1110111100000000
-.gate SB_LUT4 I0=$abc$8057$n374 I1=absolute_addr[14] I2=absolute_addr[13] I3=$false O=$abc$8057$n395
+.gate SB_LUT4 I0=$abc$8057$n375 I1=absolute_addr[14] I2=absolute_addr[13] I3=$false O=$abc$8057$n395
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 10000000
-.gate SB_LUT4 I0=$abc$8057$n393 I1=$abc$8057$n381_1 I2=$abc$8057$n895 I3=$false O=$abc$8057$n397
+.gate SB_LUT4 I0=$abc$8057$n393 I1=$abc$8057$n382_1 I2=$abc$8057$n895 I3=$false O=$abc$8057$n396
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01110000
-.gate SB_LUT4 I0=memory_data_out_26[9] I1=$abc$8057$n394 I2=$abc$8057$n400 I3=$false O=$abc$8057$n399
+.gate SB_LUT4 I0=memory_data_out_26[9] I1=$abc$8057$n394 I2=$abc$8057$n398 I3=$false O=$abc$8057$n397
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 00000111
-.gate SB_LUT4 I0=absolute_addr[12] I1=absolute_addr[11] I2=$abc$8057$n401 I3=$abc$8057$n891 O=$abc$8057$n400
+.gate SB_LUT4 I0=absolute_addr[12] I1=absolute_addr[11] I2=$abc$8057$n399 I3=$abc$8057$n891 O=$abc$8057$n398
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1110111100000000
-.gate SB_LUT4 I0=absolute_addr[14] I1=absolute_addr[13] I2=$abc$8057$n381_1 I3=$false O=$abc$8057$n401
+.gate SB_LUT4 I0=absolute_addr[14] I1=absolute_addr[13] I2=$abc$8057$n382_1 I3=$false O=$abc$8057$n399
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 10000000
-.gate SB_LUT4 I0=memory_data_out_27[9] I1=$abc$8057$n400 I2=$abc$8057$n406 I3=$false O=$abc$8057$n405
+.gate SB_LUT4 I0=memory_data_out_27[9] I1=$abc$8057$n398 I2=$abc$8057$n404 I3=$false O=$abc$8057$n403_1
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 00001011
-.gate SB_LUT4 I0=absolute_addr[12] I1=absolute_addr[11] I2=$abc$8057$n395 I3=$abc$8057$n889 O=$abc$8057$n406
+.gate SB_LUT4 I0=absolute_addr[12] I1=absolute_addr[11] I2=$abc$8057$n395 I3=$abc$8057$n889 O=$abc$8057$n404
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1011111100000000
-.gate SB_LUT4 I0=memory_data_out_28[9] I1=$abc$8057$n406 I2=$abc$8057$n408 I3=$false O=$abc$8057$n407
+.gate SB_LUT4 I0=memory_data_out_28[9] I1=$abc$8057$n404 I2=$abc$8057$n406 I3=$false O=$abc$8057$n405
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 00000111
-.gate SB_LUT4 I0=absolute_addr[12] I1=absolute_addr[11] I2=$abc$8057$n401 I3=$abc$8057$n887 O=$abc$8057$n408
+.gate SB_LUT4 I0=absolute_addr[12] I1=absolute_addr[11] I2=$abc$8057$n399 I3=$abc$8057$n887 O=$abc$8057$n406
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1011111100000000
-.gate SB_LUT4 I0=absolute_addr[11] I1=absolute_addr[12] I2=$abc$8057$n395 I3=$abc$8057$n885 O=$abc$8057$n409
+.gate SB_LUT4 I0=absolute_addr[11] I1=absolute_addr[12] I2=$abc$8057$n395 I3=$abc$8057$n885 O=$abc$8057$n407
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1011111100000000
-.gate SB_LUT4 I0=memory_data_out_29[9] I1=$abc$8057$n408 I2=$false I3=$false O=$abc$8057$n410
+.gate SB_LUT4 I0=memory_data_out_29[9] I1=$abc$8057$n406 I2=$false I3=$false O=$abc$8057$n408
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 0100
-.gate SB_LUT4 I0=$abc$8057$n446 I1=$abc$8057$n412 I2=memory_data_out_30[5] I3=$abc$8057$n409 O=$abc$8057$n811
+.gate SB_LUT4 I0=$abc$8057$n444 I1=$abc$8057$n410 I2=memory_data_out_30[5] I3=$abc$8057$n407 O=$abc$8057$n811
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1111000000010001
-.gate SB_LUT4 I0=$abc$8057$n413 I1=$abc$8057$n443 I2=$abc$8057$n444 I3=$abc$8057$n445 O=$abc$8057$n412
+.gate SB_LUT4 I0=$abc$8057$n411 I1=$abc$8057$n441 I2=$abc$8057$n442 I3=$abc$8057$n443 O=$abc$8057$n410
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100111100000000
-.gate SB_LUT4 I0=memory_data_out_25[5] I1=$abc$8057$n414 I2=$abc$8057$n394 I3=$abc$8057$n397 O=$abc$8057$n413
+.gate SB_LUT4 I0=memory_data_out_25[5] I1=$abc$8057$n412 I2=$abc$8057$n394 I3=$abc$8057$n396 O=$abc$8057$n411
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0000101000000011
-.gate SB_LUT4 I0=$abc$8057$n442 I1=$abc$8057$n415 I2=memory_data_out_24[5] I3=$abc$8057$n392 O=$abc$8057$n414
+.gate SB_LUT4 I0=$abc$8057$n440 I1=$abc$8057$n413 I2=memory_data_out_24[5] I3=$abc$8057$n392 O=$abc$8057$n412
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0000111111101110
-.gate SB_LUT4 I0=memory_data_out_22[5] I1=$abc$8057$n416 I2=$abc$8057$n391 I3=$abc$8057$n386 O=$abc$8057$n415
+.gate SB_LUT4 I0=memory_data_out_22[5] I1=$abc$8057$n414 I2=$abc$8057$n388 I3=$abc$8057$n390 O=$abc$8057$n413
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0000010100001100
-.gate SB_LUT4 I0=$abc$8057$n441 I1=$abc$8057$n417 I2=memory_data_out_21[5] I3=$abc$8057$n388 O=$abc$8057$n416
+.gate SB_LUT4 I0=$abc$8057$n439 I1=$abc$8057$n415 I2=memory_data_out_21[5] I3=$abc$8057$n387 O=$abc$8057$n414
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0000111100010001
-.gate SB_LUT4 I0=$abc$8057$n559 I1=$abc$8057$n438 I2=$abc$8057$n439 I3=$abc$8057$n440 O=$abc$8057$n417
+.gate SB_LUT4 I0=$abc$8057$n552 I1=$abc$8057$n436 I2=$abc$8057$n437 I3=$abc$8057$n438 O=$abc$8057$n415
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100111100000000
-.gate SB_LUT4 I0=$abc$8057$n420 I1=$abc$8057$n433 I2=$abc$8057$n434 I3=$abc$8057$n435 O=$abc$8057$n419
+.gate SB_LUT4 I0=$abc$8057$n418 I1=$abc$8057$n431 I2=$abc$8057$n432 I3=$abc$8057$n433 O=$abc$8057$n417
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100111100000000
-.gate SB_LUT4 I0=$abc$8057$n421 I1=$abc$8057$n430 I2=$abc$8057$n431 I3=$abc$8057$n432 O=$abc$8057$n420
+.gate SB_LUT4 I0=$abc$8057$n419 I1=$abc$8057$n428 I2=$abc$8057$n429 I3=$abc$8057$n430 O=$abc$8057$n418
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100111100000000
-.gate SB_LUT4 I0=$abc$8057$n422 I1=$abc$8057$n427 I2=$abc$8057$n428 I3=$abc$8057$n429 O=$abc$8057$n421
+.gate SB_LUT4 I0=$abc$8057$n420 I1=$abc$8057$n425_1 I2=$abc$8057$n426 I3=$abc$8057$n427 O=$abc$8057$n419
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100111100000000
-.gate SB_LUT4 I0=$abc$8057$n423 I1=$abc$8057$n424_1 I2=$abc$8057$n425_1 I3=$abc$8057$n426 O=$abc$8057$n422
+.gate SB_LUT4 I0=$abc$8057$n421 I1=$abc$8057$n422 I2=$abc$8057$n423 I3=$abc$8057$n424_1 O=$abc$8057$n420
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100111100000000
-.gate SB_LUT4 I0=memory_data_out_2[5] I1=memory_data_out_1[5] I2=$abc$8057$n668 I3=$abc$8057$n671 O=$abc$8057$n423
+.gate SB_LUT4 I0=memory_data_out_2[5] I1=memory_data_out_1[5] I2=$abc$8057$n668 I3=$abc$8057$n671 O=$abc$8057$n421
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1100101000000000
-.gate SB_LUT4 I0=memory_data_out_3[5] I1=$abc$8057$n671 I2=$abc$8057$n674 I3=$false O=$abc$8057$n424_1
+.gate SB_LUT4 I0=memory_data_out_3[5] I1=$abc$8057$n671 I2=$abc$8057$n674 I3=$false O=$abc$8057$n422
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11010000
-.gate SB_LUT4 I0=memory_data_out_4[5] I1=$abc$8057$n674 I2=$abc$8057$n677 I3=$false O=$abc$8057$n425_1
+.gate SB_LUT4 I0=memory_data_out_4[5] I1=$abc$8057$n674 I2=$abc$8057$n677 I3=$false O=$abc$8057$n423
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11100000
-.gate SB_LUT4 I0=memory_data_out_5[5] I1=$abc$8057$n677 I2=$abc$8057$n680 I3=$false O=$abc$8057$n426
+.gate SB_LUT4 I0=memory_data_out_5[5] I1=$abc$8057$n677 I2=$abc$8057$n680 I3=$false O=$abc$8057$n424_1
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11010000
-.gate SB_LUT4 I0=memory_data_out_6[5] I1=$abc$8057$n680 I2=$abc$8057$n683 I3=$false O=$abc$8057$n427
+.gate SB_LUT4 I0=memory_data_out_6[5] I1=$abc$8057$n680 I2=$abc$8057$n683 I3=$false O=$abc$8057$n425_1
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11100000
-.gate SB_LUT4 I0=memory_data_out_7[5] I1=$abc$8057$n683 I2=$abc$8057$n686 I3=$false O=$abc$8057$n428
+.gate SB_LUT4 I0=memory_data_out_7[5] I1=$abc$8057$n683 I2=$abc$8057$n686 I3=$false O=$abc$8057$n426
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11010000
-.gate SB_LUT4 I0=memory_data_out_8[5] I1=$abc$8057$n686 I2=$abc$8057$n689 I3=$false O=$abc$8057$n429
+.gate SB_LUT4 I0=memory_data_out_8[5] I1=$abc$8057$n686 I2=$abc$8057$n689 I3=$false O=$abc$8057$n427
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11100000
-.gate SB_LUT4 I0=memory_data_out_9[5] I1=$abc$8057$n689 I2=$abc$8057$n692 I3=$false O=$abc$8057$n430
+.gate SB_LUT4 I0=memory_data_out_9[5] I1=$abc$8057$n689 I2=$abc$8057$n692 I3=$false O=$abc$8057$n428
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11010000
-.gate SB_LUT4 I0=memory_data_out_10[5] I1=$abc$8057$n692 I2=$abc$8057$n695 I3=$false O=$abc$8057$n431
+.gate SB_LUT4 I0=memory_data_out_10[5] I1=$abc$8057$n692 I2=$abc$8057$n695 I3=$false O=$abc$8057$n429
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11100000
-.gate SB_LUT4 I0=memory_data_out_11[5] I1=$abc$8057$n695 I2=$abc$8057$n698 I3=$false O=$abc$8057$n432
+.gate SB_LUT4 I0=memory_data_out_11[5] I1=$abc$8057$n695 I2=$abc$8057$n698 I3=$false O=$abc$8057$n430
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11010000
-.gate SB_LUT4 I0=memory_data_out_12[5] I1=$abc$8057$n698 I2=$abc$8057$n701 I3=$false O=$abc$8057$n433
+.gate SB_LUT4 I0=memory_data_out_12[5] I1=$abc$8057$n698 I2=$abc$8057$n701 I3=$false O=$abc$8057$n431
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11100000
-.gate SB_LUT4 I0=memory_data_out_13[5] I1=$abc$8057$n701 I2=$abc$8057$n704 I3=$false O=$abc$8057$n434
+.gate SB_LUT4 I0=memory_data_out_13[5] I1=$abc$8057$n701 I2=$abc$8057$n704 I3=$false O=$abc$8057$n432
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11010000
-.gate SB_LUT4 I0=memory_data_out_14[5] I1=$abc$8057$n704 I2=$abc$8057$n707 I3=$false O=$abc$8057$n435
+.gate SB_LUT4 I0=memory_data_out_14[5] I1=$abc$8057$n704 I2=$abc$8057$n707 I3=$false O=$abc$8057$n433
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11100000
-.gate SB_LUT4 I0=memory_data_out_17[5] I1=absolute_addr[14] I2=$abc$8057$n373 I3=$false O=$abc$8057$n438
+.gate SB_LUT4 I0=memory_data_out_17[5] I1=absolute_addr[14] I2=$abc$8057$n374 I3=$false O=$abc$8057$n436
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 00001011
-.gate SB_LUT4 I0=memory_data_out_18[5] I1=$abc$8057$n373 I2=$abc$8057$n380 I3=$false O=$abc$8057$n439
+.gate SB_LUT4 I0=memory_data_out_18[5] I1=$abc$8057$n374 I2=$abc$8057$n381_1 I3=$false O=$abc$8057$n437
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 00000111
-.gate SB_LUT4 I0=memory_data_out_19[5] I1=$abc$8057$n380 I2=$abc$8057$n382_1 I3=$false O=$abc$8057$n440
+.gate SB_LUT4 I0=memory_data_out_19[5] I1=$abc$8057$n381_1 I2=$abc$8057$n384 I3=$false O=$abc$8057$n438
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 00001011
-.gate SB_LUT4 I0=$abc$8057$n382_1 I1=memory_data_out_20[5] I2=$false I3=$false O=$abc$8057$n441
+.gate SB_LUT4 I0=$abc$8057$n384 I1=memory_data_out_20[5] I2=$false I3=$false O=$abc$8057$n439
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 1000
-.gate SB_LUT4 I0=memory_data_out_23[5] I1=$abc$8057$n391 I2=$false I3=$false O=$abc$8057$n442
+.gate SB_LUT4 I0=memory_data_out_23[5] I1=$abc$8057$n388 I2=$false I3=$false O=$abc$8057$n440
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 0100
-.gate SB_LUT4 I0=memory_data_out_26[5] I1=$abc$8057$n394 I2=$abc$8057$n400 I3=$false O=$abc$8057$n443
+.gate SB_LUT4 I0=memory_data_out_26[5] I1=$abc$8057$n394 I2=$abc$8057$n398 I3=$false O=$abc$8057$n441
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 00000111
-.gate SB_LUT4 I0=memory_data_out_27[5] I1=$abc$8057$n400 I2=$abc$8057$n406 I3=$false O=$abc$8057$n444
+.gate SB_LUT4 I0=memory_data_out_27[5] I1=$abc$8057$n398 I2=$abc$8057$n404 I3=$false O=$abc$8057$n442
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 00001011
-.gate SB_LUT4 I0=memory_data_out_28[5] I1=$abc$8057$n406 I2=$abc$8057$n408 I3=$false O=$abc$8057$n445
+.gate SB_LUT4 I0=memory_data_out_28[5] I1=$abc$8057$n404 I2=$abc$8057$n406 I3=$false O=$abc$8057$n443
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 00000111
-.gate SB_LUT4 I0=memory_data_out_29[5] I1=$abc$8057$n408 I2=$false I3=$false O=$abc$8057$n446
+.gate SB_LUT4 I0=memory_data_out_29[5] I1=$abc$8057$n406 I2=$false I3=$false O=$abc$8057$n444
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 0100
-.gate SB_LUT4 I0=$abc$8057$n484 I1=$abc$8057$n448_1 I2=memory_data_out_30[1] I3=$abc$8057$n409 O=$abc$8057$n870
+.gate SB_LUT4 I0=$abc$8057$n482 I1=$abc$8057$n446 I2=memory_data_out_30[1] I3=$abc$8057$n407 O=$abc$8057$n870
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1111000000010001
-.gate SB_LUT4 I0=$abc$8057$n564 I1=$abc$8057$n481 I2=$abc$8057$n482 I3=$abc$8057$n483 O=$abc$8057$n448_1
+.gate SB_LUT4 I0=$abc$8057$n557 I1=$abc$8057$n479 I2=$abc$8057$n480 I3=$abc$8057$n481 O=$abc$8057$n446
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100111100000000
-.gate SB_LUT4 I0=memory_data_out_19[1] I1=$abc$8057$n453 I2=$abc$8057$n382_1 I3=$abc$8057$n380 O=$abc$8057$n452
+.gate SB_LUT4 I0=memory_data_out_19[1] I1=$abc$8057$n451 I2=$abc$8057$n384 I3=$abc$8057$n381_1 O=$abc$8057$n450
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0000010100001100
-.gate SB_LUT4 I0=$abc$8057$n474 I1=$abc$8057$n566 I2=memory_data_out_18[1] I3=$abc$8057$n373 O=$abc$8057$n453
+.gate SB_LUT4 I0=$abc$8057$n472_1 I1=$abc$8057$n559 I2=memory_data_out_18[1] I3=$abc$8057$n374 O=$abc$8057$n451
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0000111111101110
-.gate SB_LUT4 I0=$abc$8057$n456 I1=$abc$8057$n469 I2=$abc$8057$n470 I3=$abc$8057$n471_1 O=$abc$8057$n455
+.gate SB_LUT4 I0=$abc$8057$n454 I1=$abc$8057$n467 I2=$abc$8057$n468 I3=$abc$8057$n469 O=$abc$8057$n453
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100111100000000
-.gate SB_LUT4 I0=$abc$8057$n457 I1=$abc$8057$n466 I2=$abc$8057$n467 I3=$abc$8057$n468 O=$abc$8057$n456
+.gate SB_LUT4 I0=$abc$8057$n455 I1=$abc$8057$n464 I2=$abc$8057$n465 I3=$abc$8057$n466 O=$abc$8057$n454
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100111100000000
-.gate SB_LUT4 I0=$abc$8057$n458 I1=$abc$8057$n463 I2=$abc$8057$n464 I3=$abc$8057$n465 O=$abc$8057$n457
+.gate SB_LUT4 I0=$abc$8057$n456 I1=$abc$8057$n461 I2=$abc$8057$n462 I3=$abc$8057$n463 O=$abc$8057$n455
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100111100000000
-.gate SB_LUT4 I0=$abc$8057$n460 I1=$abc$8057$n459 I2=$abc$8057$n461 I3=$abc$8057$n462 O=$abc$8057$n458
+.gate SB_LUT4 I0=$abc$8057$n458 I1=$abc$8057$n457 I2=$abc$8057$n459 I3=$abc$8057$n460 O=$abc$8057$n456
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100111100000000
-.gate SB_LUT4 I0=memory_data_out_3[1] I1=$abc$8057$n671 I2=$abc$8057$n674 I3=$false O=$abc$8057$n459
+.gate SB_LUT4 I0=memory_data_out_3[1] I1=$abc$8057$n671 I2=$abc$8057$n674 I3=$false O=$abc$8057$n457
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11010000
-.gate SB_LUT4 I0=memory_data_out_2[1] I1=memory_data_out_1[1] I2=$abc$8057$n668 I3=$abc$8057$n671 O=$abc$8057$n460
+.gate SB_LUT4 I0=memory_data_out_2[1] I1=memory_data_out_1[1] I2=$abc$8057$n668 I3=$abc$8057$n671 O=$abc$8057$n458
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1100101000000000
-.gate SB_LUT4 I0=memory_data_out_4[1] I1=$abc$8057$n674 I2=$abc$8057$n677 I3=$false O=$abc$8057$n461
+.gate SB_LUT4 I0=memory_data_out_4[1] I1=$abc$8057$n674 I2=$abc$8057$n677 I3=$false O=$abc$8057$n459
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11100000
-.gate SB_LUT4 I0=memory_data_out_5[1] I1=$abc$8057$n677 I2=$abc$8057$n680 I3=$false O=$abc$8057$n462
+.gate SB_LUT4 I0=memory_data_out_5[1] I1=$abc$8057$n677 I2=$abc$8057$n680 I3=$false O=$abc$8057$n460
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11010000
-.gate SB_LUT4 I0=memory_data_out_6[1] I1=$abc$8057$n680 I2=$abc$8057$n683 I3=$false O=$abc$8057$n463
+.gate SB_LUT4 I0=memory_data_out_6[1] I1=$abc$8057$n680 I2=$abc$8057$n683 I3=$false O=$abc$8057$n461
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11100000
-.gate SB_LUT4 I0=memory_data_out_7[1] I1=$abc$8057$n683 I2=$abc$8057$n686 I3=$false O=$abc$8057$n464
+.gate SB_LUT4 I0=memory_data_out_7[1] I1=$abc$8057$n683 I2=$abc$8057$n686 I3=$false O=$abc$8057$n462
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11010000
-.gate SB_LUT4 I0=memory_data_out_8[1] I1=$abc$8057$n686 I2=$abc$8057$n689 I3=$false O=$abc$8057$n465
+.gate SB_LUT4 I0=memory_data_out_8[1] I1=$abc$8057$n686 I2=$abc$8057$n689 I3=$false O=$abc$8057$n463
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11100000
-.gate SB_LUT4 I0=memory_data_out_9[1] I1=$abc$8057$n689 I2=$abc$8057$n692 I3=$false O=$abc$8057$n466
+.gate SB_LUT4 I0=memory_data_out_9[1] I1=$abc$8057$n689 I2=$abc$8057$n692 I3=$false O=$abc$8057$n464
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11010000
-.gate SB_LUT4 I0=memory_data_out_10[1] I1=$abc$8057$n692 I2=$abc$8057$n695 I3=$false O=$abc$8057$n467
+.gate SB_LUT4 I0=memory_data_out_10[1] I1=$abc$8057$n692 I2=$abc$8057$n695 I3=$false O=$abc$8057$n465
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11100000
-.gate SB_LUT4 I0=memory_data_out_11[1] I1=$abc$8057$n695 I2=$abc$8057$n698 I3=$false O=$abc$8057$n468
+.gate SB_LUT4 I0=memory_data_out_11[1] I1=$abc$8057$n695 I2=$abc$8057$n698 I3=$false O=$abc$8057$n466
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11010000
-.gate SB_LUT4 I0=memory_data_out_12[1] I1=$abc$8057$n698 I2=$abc$8057$n701 I3=$false O=$abc$8057$n469
+.gate SB_LUT4 I0=memory_data_out_12[1] I1=$abc$8057$n698 I2=$abc$8057$n701 I3=$false O=$abc$8057$n467
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11100000
-.gate SB_LUT4 I0=memory_data_out_13[1] I1=$abc$8057$n701 I2=$abc$8057$n704 I3=$false O=$abc$8057$n470
+.gate SB_LUT4 I0=memory_data_out_13[1] I1=$abc$8057$n701 I2=$abc$8057$n704 I3=$false O=$abc$8057$n468
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11010000
-.gate SB_LUT4 I0=memory_data_out_14[1] I1=$abc$8057$n704 I2=$abc$8057$n707 I3=$false O=$abc$8057$n471_1
+.gate SB_LUT4 I0=memory_data_out_14[1] I1=$abc$8057$n704 I2=$abc$8057$n707 I3=$false O=$abc$8057$n469
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11100000
-.gate SB_LUT4 I0=memory_data_out_17[1] I1=absolute_addr[14] I2=$false I3=$false O=$abc$8057$n474
+.gate SB_LUT4 I0=memory_data_out_17[1] I1=absolute_addr[14] I2=$false I3=$false O=$abc$8057$n472_1
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 0100
-.gate SB_LUT4 I0=memory_data_out_20[1] I1=$abc$8057$n382_1 I2=$false I3=$false O=$abc$8057$n475
+.gate SB_LUT4 I0=memory_data_out_20[1] I1=$abc$8057$n384 I2=$false I3=$false O=$abc$8057$n473
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 0100
-.gate SB_LUT4 I0=memory_data_out_23[1] I1=$abc$8057$n391 I2=$abc$8057$n392 I3=$false O=$abc$8057$n478
+.gate SB_LUT4 I0=memory_data_out_23[1] I1=$abc$8057$n388 I2=$abc$8057$n392 I3=$false O=$abc$8057$n476
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 00000111
-.gate SB_LUT4 I0=memory_data_out_26[1] I1=$abc$8057$n394 I2=$abc$8057$n400 I3=$false O=$abc$8057$n481
+.gate SB_LUT4 I0=memory_data_out_26[1] I1=$abc$8057$n394 I2=$abc$8057$n398 I3=$false O=$abc$8057$n479
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 00000111
-.gate SB_LUT4 I0=memory_data_out_27[1] I1=$abc$8057$n400 I2=$abc$8057$n406 I3=$false O=$abc$8057$n482
+.gate SB_LUT4 I0=memory_data_out_27[1] I1=$abc$8057$n398 I2=$abc$8057$n404 I3=$false O=$abc$8057$n480
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 00001011
-.gate SB_LUT4 I0=memory_data_out_28[1] I1=$abc$8057$n406 I2=$abc$8057$n408 I3=$false O=$abc$8057$n483
+.gate SB_LUT4 I0=memory_data_out_28[1] I1=$abc$8057$n404 I2=$abc$8057$n406 I3=$false O=$abc$8057$n481
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 00000111
-.gate SB_LUT4 I0=memory_data_out_29[1] I1=$abc$8057$n408 I2=$false I3=$false O=$abc$8057$n484
+.gate SB_LUT4 I0=memory_data_out_29[1] I1=$abc$8057$n406 I2=$false I3=$false O=$abc$8057$n482
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 0100
-.gate SB_LUT4 I0=$abc$8057$n486 I1=$abc$8057$n488 I2=v_counter[2] I3=$false O=$abc$8057$n873
+.gate SB_LUT4 I0=$abc$8057$n484 I1=$abc$8057$n486 I2=v_counter[2] I3=$false O=$abc$8057$n873
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 10010110
-.gate SB_LUT4 I0=h_counter[5] I1=v_counter[4] I2=$abc$8057$n487 I3=$false O=$abc$8057$n486
+.gate SB_LUT4 I0=h_counter[5] I1=v_counter[4] I2=$abc$8057$n485 I3=$false O=$abc$8057$n484
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01100000
-.gate SB_LUT4 I0=h_counter[4] I1=v_counter[3] I2=$false I3=$false O=$abc$8057$n487
+.gate SB_LUT4 I0=h_counter[4] I1=v_counter[3] I2=$false I3=$false O=$abc$8057$n485
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 1000
-.gate SB_LUT4 I0=$abc$8057$n489 I1=h_counter[6] I2=v_counter[5] I3=$false O=$abc$8057$n488
+.gate SB_LUT4 I0=$abc$8057$n487 I1=h_counter[6] I2=v_counter[5] I3=$false O=$abc$8057$n486
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 10010110
-.gate SB_LUT4 I0=h_counter[5] I1=v_counter[4] I2=$false I3=$false O=$abc$8057$n489
+.gate SB_LUT4 I0=h_counter[5] I1=v_counter[4] I2=$false I3=$false O=$abc$8057$n487
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 1000
-.gate SB_LUT4 I0=h_counter[5] I1=v_counter[4] I2=$abc$8057$n491 I3=$false O=$abc$8057$n875
+.gate SB_LUT4 I0=h_counter[5] I1=v_counter[4] I2=$abc$8057$n489 I3=$false O=$abc$8057$n875
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01100000
-.gate SB_LUT4 I0=h_counter[4] I1=v_counter[3] I2=v_counter[2] I3=h_counter[3] O=$abc$8057$n491
+.gate SB_LUT4 I0=h_counter[4] I1=v_counter[3] I2=v_counter[2] I3=h_counter[3] O=$abc$8057$n489
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0110000000000000
 .gate SB_LUT4 I0=$abc$8057$n873 I1=$abc$8057$n875 I2=$false I3=$false O=$0\absolute_addr[14:0][6]
@@ -574,55 +589,55 @@
 .gate SB_LUT4 I0=v_counter[2] I1=h_counter[3] I2=h_counter[4] I3=v_counter[3] O=$0\absolute_addr[14:0][4]
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1000011101111000
-.gate SB_LUT4 I0=$abc$8057$n496_1 I1=$abc$8057$n499 I2=$abc$8057$n501 I3=$false O=$abc$8057$n1004
+.gate SB_LUT4 I0=$abc$8057$n494 I1=$abc$8057$n497_1 I2=$abc$8057$n499 I3=$false O=$abc$8057$n1004
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11010100
-.gate SB_LUT4 I0=$abc$8057$n497_1 I1=$abc$8057$n498 I2=v_counter[7] I3=h_counter[8] O=$abc$8057$n496_1
+.gate SB_LUT4 I0=$abc$8057$n495 I1=$abc$8057$n496_1 I2=v_counter[7] I3=h_counter[8] O=$abc$8057$n494
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0111000100010111
-.gate SB_LUT4 I0=h_counter[7] I1=v_counter[6] I2=$false I3=$false O=$abc$8057$n497_1
+.gate SB_LUT4 I0=h_counter[7] I1=v_counter[6] I2=$false I3=$false O=$abc$8057$n495
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 1000
-.gate SB_LUT4 I0=v_counter[2] I1=v_counter[3] I2=v_counter[4] I3=$false O=$abc$8057$n498
+.gate SB_LUT4 I0=v_counter[2] I1=v_counter[3] I2=v_counter[4] I3=$false O=$abc$8057$n496_1
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 10110100
-.gate SB_LUT4 I0=v_counter[7] I1=h_counter[8] I2=$abc$8057$n500 I3=v_counter[8] O=$abc$8057$n499
+.gate SB_LUT4 I0=v_counter[7] I1=h_counter[8] I2=$abc$8057$n498 I3=v_counter[8] O=$abc$8057$n497_1
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0111100010000111
-.gate SB_LUT4 I0=v_counter[3] I1=v_counter[4] I2=v_counter[5] I3=$false O=$abc$8057$n500
+.gate SB_LUT4 I0=v_counter[3] I1=v_counter[4] I2=v_counter[5] I3=$false O=$abc$8057$n498
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01001011
-.gate SB_LUT4 I0=v_counter[4] I1=v_counter[3] I2=v_counter[2] I3=$false O=$abc$8057$n501
+.gate SB_LUT4 I0=v_counter[4] I1=v_counter[3] I2=v_counter[2] I3=$false O=$abc$8057$n499
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01000000
-.gate SB_LUT4 I0=$abc$8057$n503 I1=$abc$8057$n504 I2=$abc$8057$n505 I3=$false O=$abc$8057$n1007
+.gate SB_LUT4 I0=$abc$8057$n501 I1=$abc$8057$n502 I2=$abc$8057$n503 I3=$false O=$abc$8057$n1007
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 11010100
-.gate SB_LUT4 I0=$abc$8057$n500 I1=v_counter[8] I2=v_counter[7] I3=h_counter[8] O=$abc$8057$n503
+.gate SB_LUT4 I0=$abc$8057$n498 I1=v_counter[8] I2=v_counter[7] I3=h_counter[8] O=$abc$8057$n501
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0010101110111011
-.gate SB_LUT4 I0=v_counter[4] I1=v_counter[5] I2=v_counter[9] I3=v_counter[6] O=$abc$8057$n504
+.gate SB_LUT4 I0=v_counter[4] I1=v_counter[5] I2=v_counter[9] I3=v_counter[6] O=$abc$8057$n502
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100101110110100
-.gate SB_LUT4 I0=v_counter[5] I1=v_counter[4] I2=v_counter[3] I3=$false O=$abc$8057$n505
+.gate SB_LUT4 I0=v_counter[5] I1=v_counter[4] I2=v_counter[3] I3=$false O=$abc$8057$n503
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01000000
-.gate SB_LUT4 I0=$abc$8057$n507 I1=v_counter[6] I2=$abc$8057$n508 I3=$abc$8057$n286 O=$abc$8057$n1010
+.gate SB_LUT4 I0=$abc$8057$n505 I1=v_counter[6] I2=$abc$8057$n506 I3=$abc$8057$n286 O=$abc$8057$n1010
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1011001010100000
-.gate SB_LUT4 I0=v_counter[4] I1=v_counter[5] I2=v_counter[6] I3=v_counter[9] O=$abc$8057$n507
+.gate SB_LUT4 I0=v_counter[4] I1=v_counter[5] I2=v_counter[6] I3=v_counter[9] O=$abc$8057$n505
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1011010000000000
-.gate SB_LUT4 I0=v_counter[5] I1=v_counter[6] I2=v_counter[7] I3=$false O=$abc$8057$n508
+.gate SB_LUT4 I0=v_counter[5] I1=v_counter[6] I2=v_counter[7] I3=$false O=$abc$8057$n506
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 10110100
-.gate SB_LUT4 I0=$abc$8057$n496_1 I1=$abc$8057$n499 I2=$abc$8057$n501 I3=$false O=$abc$8057$n1012
+.gate SB_LUT4 I0=$abc$8057$n494 I1=$abc$8057$n497_1 I2=$abc$8057$n499 I3=$false O=$abc$8057$n1012
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01101001
-.gate SB_LUT4 I0=$abc$8057$n503 I1=$abc$8057$n504 I2=$abc$8057$n505 I3=$false O=$abc$8057$n1014
+.gate SB_LUT4 I0=$abc$8057$n501 I1=$abc$8057$n502 I2=$abc$8057$n503 I3=$false O=$abc$8057$n1014
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01101001
-.gate SB_LUT4 I0=v_counter[6] I1=$abc$8057$n286 I2=$abc$8057$n507 I3=$abc$8057$n508 O=$abc$8057$n1016
+.gate SB_LUT4 I0=v_counter[6] I1=$abc$8057$n286 I2=$abc$8057$n505 I3=$abc$8057$n506 O=$abc$8057$n1016
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100101110110100
 .gate SB_LUT4 I0=v_counter[5] I1=v_counter[7] I2=v_counter[8] I3=v_counter[6] O=$abc$8057$n1017
@@ -640,37 +655,37 @@
 .gate SB_LUT4 I0=v_counter[8] I1=v_counter[7] I2=v_counter[9] I3=v_counter[6] O=$abc$8057$n1021
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100000000000000
-.gate SB_LUT4 I0=$abc$8057$n488 I1=v_counter[2] I2=$abc$8057$n486 I3=$false O=$abc$8057$n1022
+.gate SB_LUT4 I0=$abc$8057$n486 I1=v_counter[2] I2=$abc$8057$n484 I3=$false O=$abc$8057$n1022
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:48"
 .param LUT_INIT 01100000
-.gate SB_LUT4 I0=$abc$8057$n519 I1=$abc$8057$n520 I2=v_counter[3] I3=v_counter[2] O=$abc$8057$n1023
+.gate SB_LUT4 I0=$abc$8057$n517 I1=$abc$8057$n518 I2=v_counter[3] I3=v_counter[2] O=$abc$8057$n1023
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0100000100010100
-.gate SB_LUT4 I0=$abc$8057$n489 I1=v_counter[2] I2=h_counter[6] I3=v_counter[5] O=$abc$8057$n519
+.gate SB_LUT4 I0=$abc$8057$n487 I1=v_counter[2] I2=h_counter[6] I3=v_counter[5] O=$abc$8057$n517
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0111000100010111
-.gate SB_LUT4 I0=h_counter[6] I1=v_counter[5] I2=h_counter[7] I3=v_counter[6] O=$abc$8057$n520
+.gate SB_LUT4 I0=h_counter[6] I1=v_counter[5] I2=h_counter[7] I3=v_counter[6] O=$abc$8057$n518
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1000011101111000
-.gate SB_LUT4 I0=$abc$8057$n522_1 I1=$abc$8057$n524 I2=$false I3=$false O=$abc$8057$n1024
+.gate SB_LUT4 I0=$abc$8057$n520 I1=$abc$8057$n522_1 I2=$false I3=$false O=$abc$8057$n1024
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 0100
-.gate SB_LUT4 I0=$abc$8057$n520 I1=v_counter[3] I2=v_counter[2] I3=$abc$8057$n523_1 O=$abc$8057$n522_1
+.gate SB_LUT4 I0=$abc$8057$n518 I1=v_counter[3] I2=v_counter[2] I3=$abc$8057$n521 O=$abc$8057$n520
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0000000011010111
-.gate SB_LUT4 I0=h_counter[7] I1=v_counter[6] I2=h_counter[6] I3=v_counter[5] O=$abc$8057$n523_1
+.gate SB_LUT4 I0=h_counter[7] I1=v_counter[6] I2=h_counter[6] I3=v_counter[5] O=$abc$8057$n521
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0110000000000000
-.gate SB_LUT4 I0=$abc$8057$n497_1 I1=$abc$8057$n498 I2=v_counter[7] I3=h_counter[8] O=$abc$8057$n524
+.gate SB_LUT4 I0=$abc$8057$n495 I1=$abc$8057$n496_1 I2=v_counter[7] I3=h_counter[8] O=$abc$8057$n522_1
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0110100110010110
-.gate SB_LUT4 I0=$abc$8057$n487 I1=$abc$8057$n491 I2=h_counter[5] I3=v_counter[4] O=$0\absolute_addr[14:0][5]
+.gate SB_LUT4 I0=$abc$8057$n485 I1=$abc$8057$n489 I2=h_counter[5] I3=v_counter[4] O=$0\absolute_addr[14:0][5]
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0110100110010110
-.gate SB_LUT4 I0=$abc$8057$n519 I1=$abc$8057$n520 I2=v_counter[3] I3=v_counter[2] O=$abc$8057$n1026
+.gate SB_LUT4 I0=$abc$8057$n517 I1=$abc$8057$n518 I2=v_counter[3] I3=v_counter[2] O=$abc$8057$n1026
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1001011001101001
-.gate SB_LUT4 I0=$abc$8057$n522_1 I1=$abc$8057$n524 I2=$false I3=$false O=$abc$8057$n1027
+.gate SB_LUT4 I0=$abc$8057$n520 I1=$abc$8057$n522_1 I2=$false I3=$false O=$abc$8057$n1027
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:44"
 .param LUT_INIT 1001
 .gate SB_LUT4 I0=PIN_11 I1=$false I2=$false I3=$false O=$abc$8057$n1
@@ -688,7 +703,7 @@
 .gate SB_LUT4 I0=h_counter[0] I1=$false I2=$false I3=$false O=$abc$8057$n147
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:40"
 .param LUT_INIT 01
-.gate SB_LUT4 I0=$abc$8057$n173 I1=$false I2=$false I3=$false O=$abc$8057$n174
+.gate SB_LUT4 I0=$abc$8057$n177 I1=$false I2=$false I3=$false O=$abc$8057$n179
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:40"
 .param LUT_INIT 01
 .gate SB_LUT4 I0=display I1=$false I2=$false I3=$false O=$0\display[0:0]
@@ -742,52 +757,37 @@
 .gate SB_LUT4 I0=h_counter[7] I1=$false I2=$false I3=$false O=$abc$8057$n933
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:40"
 .param LUT_INIT 01
-.gate SB_LUT4 I0=$abc$8057$n351 I1=$abc$8057$n384 I2=memory_data_out_21[9] I3=$abc$8057$n388 O=$abc$8057$n551
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
-.param LUT_INIT 1111000000010001
-.gate SB_LUT4 I0=memory_data_out_22[9] I1=$abc$8057$n551 I2=$abc$8057$n391 I3=$abc$8057$n386 O=$abc$8057$n552
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
-.param LUT_INIT 1111010111110011
-.gate SB_LUT4 I0=memory_data_out_24[9] I1=$abc$8057$n392 I2=memory_data_out_25[9] I3=$abc$8057$n397 O=$abc$8057$n553
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
-.param LUT_INIT 1111000010111011
-.gate SB_LUT4 I0=$abc$8057$n397 I1=$abc$8057$n390 I2=$abc$8057$n394 I3=$abc$8057$n553 O=$abc$8057$n554
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
-.param LUT_INIT 0000101100000000
-.gate SB_LUT4 I0=$abc$8057$n394 I1=$abc$8057$n553 I2=$abc$8057$n554 I3=$abc$8057$n552 O=$abc$8057$n555
-.attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
-.param LUT_INIT 1111000001000100
-.gate SB_LUT4 I0=$abc$8057$n707 I1=memory_data_out_15[9] I2=memory_data_out_16[9] I3=$abc$8057$n710 O=$abc$8057$n556
+.gate SB_LUT4 I0=$abc$8057$n707 I1=memory_data_out_15[9] I2=memory_data_out_16[9] I3=$abc$8057$n710 O=$abc$8057$n549_1
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1011101100001111
-.gate SB_LUT4 I0=$abc$8057$n354 I1=$abc$8057$n710 I2=absolute_addr[14] I3=$abc$8057$n556 O=$abc$8057$n557
+.gate SB_LUT4 I0=$abc$8057$n354 I1=$abc$8057$n710 I2=absolute_addr[14] I3=$abc$8057$n549_1 O=$abc$8057$n550_1
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0000011100000000
-.gate SB_LUT4 I0=$abc$8057$n707 I1=memory_data_out_15[5] I2=memory_data_out_16[5] I3=$abc$8057$n710 O=$abc$8057$n558
+.gate SB_LUT4 I0=$abc$8057$n707 I1=memory_data_out_15[5] I2=memory_data_out_16[5] I3=$abc$8057$n710 O=$abc$8057$n551
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1011101100001111
-.gate SB_LUT4 I0=$abc$8057$n419 I1=$abc$8057$n710 I2=absolute_addr[14] I3=$abc$8057$n558 O=$abc$8057$n559
+.gate SB_LUT4 I0=$abc$8057$n417 I1=$abc$8057$n710 I2=absolute_addr[14] I3=$abc$8057$n551 O=$abc$8057$n552
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0000011100000000
-.gate SB_LUT4 I0=$abc$8057$n452 I1=$abc$8057$n475 I2=memory_data_out_21[1] I3=$abc$8057$n388 O=$abc$8057$n560
+.gate SB_LUT4 I0=$abc$8057$n450 I1=$abc$8057$n473 I2=memory_data_out_21[1] I3=$abc$8057$n387 O=$abc$8057$n553
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1111000000010001
-.gate SB_LUT4 I0=memory_data_out_22[1] I1=$abc$8057$n560 I2=$abc$8057$n391 I3=$abc$8057$n386 O=$abc$8057$n561
+.gate SB_LUT4 I0=memory_data_out_22[1] I1=$abc$8057$n553 I2=$abc$8057$n388 I3=$abc$8057$n390 O=$abc$8057$n554
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1111010111110011
-.gate SB_LUT4 I0=memory_data_out_24[1] I1=$abc$8057$n392 I2=memory_data_out_25[1] I3=$abc$8057$n397 O=$abc$8057$n562
+.gate SB_LUT4 I0=memory_data_out_24[1] I1=$abc$8057$n392 I2=memory_data_out_25[1] I3=$abc$8057$n396 O=$abc$8057$n555
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1111000010111011
-.gate SB_LUT4 I0=$abc$8057$n478 I1=$abc$8057$n397 I2=$abc$8057$n394 I3=$abc$8057$n562 O=$abc$8057$n563
+.gate SB_LUT4 I0=$abc$8057$n476 I1=$abc$8057$n396 I2=$abc$8057$n394 I3=$abc$8057$n555 O=$abc$8057$n556
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0000110100000000
-.gate SB_LUT4 I0=$abc$8057$n394 I1=$abc$8057$n562 I2=$abc$8057$n563 I3=$abc$8057$n561 O=$abc$8057$n564
+.gate SB_LUT4 I0=$abc$8057$n394 I1=$abc$8057$n555 I2=$abc$8057$n556 I3=$abc$8057$n554 O=$abc$8057$n557
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1111000001000100
-.gate SB_LUT4 I0=$abc$8057$n707 I1=memory_data_out_15[1] I2=memory_data_out_16[1] I3=$abc$8057$n710 O=$abc$8057$n565
+.gate SB_LUT4 I0=$abc$8057$n707 I1=memory_data_out_15[1] I2=memory_data_out_16[1] I3=$abc$8057$n710 O=$abc$8057$n558
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 1011101100001111
-.gate SB_LUT4 I0=$abc$8057$n455 I1=$abc$8057$n710 I2=absolute_addr[14] I3=$abc$8057$n565 O=$abc$8057$n566
+.gate SB_LUT4 I0=$abc$8057$n453 I1=$abc$8057$n710 I2=absolute_addr[14] I3=$abc$8057$n558 O=$abc$8057$n559
 .attr src "/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:52"
 .param LUT_INIT 0000011100000000
 .gate SB_CARRY CI=v_counter[0] CO=$auto$alumacc.cc:474:replace_alu$1993.C[2] I0=v_counter[1] I1=$true
@@ -992,11 +992,11 @@
 .attr src "top.v:431|/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/arith_map.v:47"
 .gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$2139.C[13] CO=$auto$alumacc.cc:474:replace_alu$2139.C[14] I0=$true I1=$abc$8057$n929
 .attr src "top.v:431|/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/arith_map.v:47"
-.gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$2139.C[14] CO=$abc$8057$n178 I0=$true I1=$abc$8057$n930
+.gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$2139.C[14] CO=$abc$8057$n173 I0=$true I1=$abc$8057$n930
 .attr src "top.v:431|/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/arith_map.v:47"
 .gate SB_CARRY CI=$abc$8057$n927 CO=$auto$alumacc.cc:474:replace_alu$2144.C[14] I0=$true I1=$abc$8057$n929
 .attr src "top.v:429|/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/arith_map.v:47"
-.gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$2144.C[14] CO=$abc$8057$n177 I0=$true I1=$abc$8057$n930
+.gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$2144.C[14] CO=$abc$8057$n175 I0=$true I1=$abc$8057$n930
 .attr src "top.v:429|/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/arith_map.v:47"
 .gate SB_CARRY CI=$abc$8057$n923 CO=$auto$alumacc.cc:474:replace_alu$2149.C[12] I0=$false I1=$abc$8057$n925
 .attr src "top.v:427|/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/arith_map.v:47"
@@ -1004,7 +1004,7 @@
 .attr src "top.v:427|/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/arith_map.v:47"
 .gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$2149.C[13] CO=$auto$alumacc.cc:474:replace_alu$2149.C[14] I0=$true I1=$abc$8057$n929
 .attr src "top.v:427|/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/arith_map.v:47"
-.gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$2149.C[14] CO=$abc$8057$n173 I0=$true I1=$abc$8057$n930
+.gate SB_CARRY CI=$auto$alumacc.cc:474:replace_alu$2149.C[14] CO=$abc$8057$n177 I0=$true I1=$abc$8057$n930
 .attr src "top.v:427|/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/arith_map.v:47"
 .gate SB_CARRY CI=$abc$8057$n917 CO=$auto$alumacc.cc:474:replace_alu$2154.C[12] I0=$false I1=$abc$8057$n918
 .attr src "top.v:352|/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/arith_map.v:47"
@@ -1788,9 +1788,9 @@
 .attr src "top.v:386|/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:1"
 .gate SB_DFFNSR C=clk_20mhz D=$abc$8057$n181 Q=write_en28 R=$abc$8057$n1
 .attr src "top.v:386|/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:1"
-.gate SB_DFFNSR C=clk_20mhz D=$abc$8057$n176 Q=write_en29 R=$abc$8057$n1
+.gate SB_DFFNSR C=clk_20mhz D=$abc$8057$n178 Q=write_en29 R=$abc$8057$n1
 .attr src "top.v:386|/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:1"
-.gate SB_DFFNSR C=clk_20mhz D=$abc$8057$n174 Q=write_en30 R=$abc$8057$n1
+.gate SB_DFFNSR C=clk_20mhz D=$abc$8057$n179 Q=write_en30 R=$abc$8057$n1
 .attr src "top.v:386|/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:1"
 .gate SB_DFFESR C=clk_20mhz D=$add$top.v:364$40_Y[0] E=display Q=h_counter[0] R=$abc$8057$n3
 .attr src "top.v:214|/Users/nickbild/.apio/packages/toolchain-icestorm/bin/../share/yosys/ice40/cells_map.v:8"
@@ -1878,41 +1878,41 @@
 .param WRITE_MODE 00000000000000000000000000000010
 .gate SB_RAM40_4K RADDR[0]=absolute_addr[0] RADDR[1]=absolute_addr[1] RADDR[2]=absolute_addr[2] RADDR[3]=absolute_addr[3] RADDR[4]=absolute_addr[4] RADDR[5]=absolute_addr[5] RADDR[6]=absolute_addr[6] RADDR[7]=absolute_addr[7] RADDR[8]=absolute_addr[8] RADDR[9]=absolute_addr[9] RADDR[10]=$false RCLK=clk_20mhz RCLKE=$true RDATA[0]=memory_data_out_10[0] RDATA[1]=memory_data_out_10[1] RDATA[2]=memory_data_out_10[2] RDATA[3]=memory_data_out_10[3] RDATA[4]=memory_data_out_10[4] RDATA[5]=memory_data_out_10[5] RDATA[6]=memory_data_out_10[6] RDATA[7]=memory_data_out_10[7] RDATA[8]=memory_data_out_10[8] RDATA[9]=memory_data_out_10[9] RDATA[10]=memory_data_out_10[10] RDATA[11]=memory_data_out_10[11] RDATA[12]=memory_data_out_10[12] RDATA[13]=memory_data_out_10[13] RDATA[14]=memory_data_out_10[14] RDATA[15]=memory_data_out_10[15] RE=$true WADDR[0]=waddr[0] WADDR[1]=waddr[1] WADDR[2]=waddr[2] WADDR[3]=waddr[3] WADDR[4]=waddr[4] WADDR[5]=waddr[5] WADDR[6]=waddr[6] WADDR[7]=waddr[7] WADDR[8]=waddr[8] WADDR[9]=waddr[9] WADDR[10]=waddr[10] WCLK=clk_20mhz WCLKE=$true WDATA[0]=memory_data_in[0] WDATA[1]=memory_data_in[1] WDATA[2]=memory_data_in[2] WDATA[3]=memory_data_in[3] WDATA[4]=memory_data_in[4] WDATA[5]=memory_data_in[5] WDATA[6]=memory_data_in[6] WDATA[7]=memory_data_in[7] WDATA[8]=memory_data_in[8] WDATA[9]=memory_data_in[9] WDATA[10]=memory_data_in[10] WDATA[11]=memory_data_in[11] WDATA[12]=memory_data_in[12] WDATA[13]=memory_data_in[13] WDATA[14]=memory_data_in[14] WDATA[15]=memory_data_in[15] WE=write_en10
 .attr src "top.v:784"
-.param INIT_0 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
+.param INIT_0 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110
 .param INIT_1 0000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110
-.param INIT_2 0000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111
-.param INIT_3 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000000011000000000000001100000000000000110000000000000011
-.param INIT_4 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
+.param INIT_2 0000000000000111000000000000011100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111
+.param INIT_3 0000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000000111000000000000011100000000000001110000000000000111
+.param INIT_4 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001111
 .param INIT_5 0000000000001001000000000000100100000000000010010000000000001001000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
-.param INIT_6 0000000000001101000000000000110100000000000011010000000000001101000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001
-.param INIT_7 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
+.param INIT_6 0000000000001111000000000000111100000000000011110000000000001111000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001
+.param INIT_7 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111
 .param INIT_8 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
-.param INIT_9 0000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001101000000000000110100000000000011010000000000001101
-.param INIT_A 0000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001100000000000000110000000000000011000000000000001100
-.param INIT_B 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000001110000000000000111000000000000011100000000000001110
-.param INIT_C 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
-.param INIT_D 0000000000000111000000000000011100000000000001110000000000000111000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
+.param INIT_9 0000000000001101000000000000110100000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001101000000000000110100000000000011010000000000001101
+.param INIT_A 0000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001101000000000000110100000000000011010000000000001101
+.param INIT_B 0000000000001110000000000000111000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000001110000000000000111000000000000011100000000000001111
+.param INIT_C 0000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110
+.param INIT_D 0000000000000111000000000000011100000000000001110000000000000111000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000001110
 .param INIT_E 0000000000000011000000000000001100000000000000110000000000000011000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111
-.param INIT_F 0000000000001011000000000000101100000000000010110000000000001011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
+.param INIT_F 0000000000001111000000000000111100000000000011110000000000001111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
 .param READ_MODE 00000000000000000000000000000010
 .param WRITE_MODE 00000000000000000000000000000010
 .gate SB_RAM40_4K RADDR[0]=absolute_addr[0] RADDR[1]=absolute_addr[1] RADDR[2]=absolute_addr[2] RADDR[3]=absolute_addr[3] RADDR[4]=absolute_addr[4] RADDR[5]=absolute_addr[5] RADDR[6]=absolute_addr[6] RADDR[7]=absolute_addr[7] RADDR[8]=absolute_addr[8] RADDR[9]=absolute_addr[9] RADDR[10]=$false RCLK=clk_20mhz RCLKE=$true RDATA[0]=memory_data_out_11[0] RDATA[1]=memory_data_out_11[1] RDATA[2]=memory_data_out_11[2] RDATA[3]=memory_data_out_11[3] RDATA[4]=memory_data_out_11[4] RDATA[5]=memory_data_out_11[5] RDATA[6]=memory_data_out_11[6] RDATA[7]=memory_data_out_11[7] RDATA[8]=memory_data_out_11[8] RDATA[9]=memory_data_out_11[9] RDATA[10]=memory_data_out_11[10] RDATA[11]=memory_data_out_11[11] RDATA[12]=memory_data_out_11[12] RDATA[13]=memory_data_out_11[13] RDATA[14]=memory_data_out_11[14] RDATA[15]=memory_data_out_11[15] RE=$true WADDR[0]=waddr[0] WADDR[1]=waddr[1] WADDR[2]=waddr[2] WADDR[3]=waddr[3] WADDR[4]=waddr[4] WADDR[5]=waddr[5] WADDR[6]=waddr[6] WADDR[7]=waddr[7] WADDR[8]=waddr[8] WADDR[9]=waddr[9] WADDR[10]=waddr[10] WCLK=clk_20mhz WCLKE=$true WDATA[0]=memory_data_in[0] WDATA[1]=memory_data_in[1] WDATA[2]=memory_data_in[2] WDATA[3]=memory_data_in[3] WDATA[4]=memory_data_in[4] WDATA[5]=memory_data_in[5] WDATA[6]=memory_data_in[6] WDATA[7]=memory_data_in[7] WDATA[8]=memory_data_in[8] WDATA[9]=memory_data_in[9] WDATA[10]=memory_data_in[10] WDATA[11]=memory_data_in[11] WDATA[12]=memory_data_in[12] WDATA[13]=memory_data_in[13] WDATA[14]=memory_data_in[14] WDATA[15]=memory_data_in[15] WE=write_en11
 .attr src "top.v:816"
 .param INIT_0 0000000000000011000000000000001100000000000000110000000000000011000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111
-.param INIT_1 0000000000001011000000000000101100000000000010110000000000001011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
-.param INIT_2 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
-.param INIT_3 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
-.param INIT_4 0000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001011000000000000101100000000000010110000000000001011
-.param INIT_5 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001001000000000000100100000000000010010000000000001001
-.param INIT_6 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
-.param INIT_7 0000000000001100000000000000110000000000000011000000000000001100000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
-.param INIT_8 0000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100
-.param INIT_9 0000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110
-.param INIT_A 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
-.param INIT_B 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
+.param INIT_1 0000000000001111000000000000111100000000000011110000000000001111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
+.param INIT_2 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111
+.param INIT_3 0000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
+.param INIT_4 0000000000001011000000000000101100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000110100000000000011010000000000001111000000000000111100000000000011110000000000001111
+.param INIT_5 0000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001011000000000000101100000000000010110000000000001011
+.param INIT_6 0000000000001111000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001111
+.param INIT_7 0000000000001100000000000000110000000000000011100000000000001110000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111
+.param INIT_8 0000000000001111000000000000111100000000000011110000000000001111000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100
+.param INIT_9 0000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111
+.param INIT_A 0000000000000111000000000000011100000000000011110000000000001111000000000000011100000000000001110000000000001111000000000000111100000000000001110000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
+.param INIT_B 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000111100000000000011110000000000000111000000000000011100000000000011110000000000001111
 .param INIT_C 0000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110
 .param INIT_D 0000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111
-.param INIT_E 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000000011000000000000001100000000000000110000000000000011
+.param INIT_E 0000000000001011000000000000101100000000000011110000000000001111000000000000101100000000000010110000000000001111000000000000111100000000000010110000000000001011000000000000111100000000000011110000000000000011000000000000001100000000000001110000000000000111
 .param INIT_F 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
 .param READ_MODE 00000000000000000000000000000010
 .param WRITE_MODE 00000000000000000000000000000010
@@ -1939,7 +1939,7 @@
 .gate SB_RAM40_4K RADDR[0]=absolute_addr[0] RADDR[1]=absolute_addr[1] RADDR[2]=absolute_addr[2] RADDR[3]=absolute_addr[3] RADDR[4]=absolute_addr[4] RADDR[5]=absolute_addr[5] RADDR[6]=absolute_addr[6] RADDR[7]=absolute_addr[7] RADDR[8]=absolute_addr[8] RADDR[9]=absolute_addr[9] RADDR[10]=$false RCLK=clk_20mhz RCLKE=$true RDATA[0]=memory_data_out_13[0] RDATA[1]=memory_data_out_13[1] RDATA[2]=memory_data_out_13[2] RDATA[3]=memory_data_out_13[3] RDATA[4]=memory_data_out_13[4] RDATA[5]=memory_data_out_13[5] RDATA[6]=memory_data_out_13[6] RDATA[7]=memory_data_out_13[7] RDATA[8]=memory_data_out_13[8] RDATA[9]=memory_data_out_13[9] RDATA[10]=memory_data_out_13[10] RDATA[11]=memory_data_out_13[11] RDATA[12]=memory_data_out_13[12] RDATA[13]=memory_data_out_13[13] RDATA[14]=memory_data_out_13[14] RDATA[15]=memory_data_out_13[15] RE=$true WADDR[0]=waddr[0] WADDR[1]=waddr[1] WADDR[2]=waddr[2] WADDR[3]=waddr[3] WADDR[4]=waddr[4] WADDR[5]=waddr[5] WADDR[6]=waddr[6] WADDR[7]=waddr[7] WADDR[8]=waddr[8] WADDR[9]=waddr[9] WADDR[10]=waddr[10] WCLK=clk_20mhz WCLKE=$true WDATA[0]=memory_data_in[0] WDATA[1]=memory_data_in[1] WDATA[2]=memory_data_in[2] WDATA[3]=memory_data_in[3] WDATA[4]=memory_data_in[4] WDATA[5]=memory_data_in[5] WDATA[6]=memory_data_in[6] WDATA[7]=memory_data_in[7] WDATA[8]=memory_data_in[8] WDATA[9]=memory_data_in[9] WDATA[10]=memory_data_in[10] WDATA[11]=memory_data_in[11] WDATA[12]=memory_data_in[12] WDATA[13]=memory_data_in[13] WDATA[14]=memory_data_in[14] WDATA[15]=memory_data_in[15] WE=write_en13
 .attr src "top.v:880"
 .param INIT_0 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
-.param INIT_1 0000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001011000000000000101100000000000010110000000000001011
+.param INIT_1 0000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001011000000000000101100000000000011110000000000001011
 .param INIT_2 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001001000000000000100100000000000010010000000000001001
 .param INIT_3 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
 .param INIT_4 0000000000001100000000000000110000000000000011000000000000001100000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
@@ -1947,111 +1947,111 @@
 .param INIT_6 0000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110
 .param INIT_7 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
 .param INIT_8 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
-.param INIT_9 0000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110
+.param INIT_9 0000000000001111000000000000111100000000000011110000000000000111000000000000011100000000000011110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110
 .param INIT_A 0000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111
 .param INIT_B 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000000011000000000000001100000000000000110000000000000011
 .param INIT_C 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
-.param INIT_D 0000000000001001000000000000100100000000000010010000000000001001000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
+.param INIT_D 0000000000001001000000000000100100000000000010010000000000001001000000000000101100000000000010110000000000001011000000000000111100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000011110000000000001011
 .param INIT_E 0000000000001101000000000000110100000000000011010000000000001101000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001
 .param INIT_F 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
 .param READ_MODE 00000000000000000000000000000010
 .param WRITE_MODE 00000000000000000000000000000010
 .gate SB_RAM40_4K RADDR[0]=absolute_addr[0] RADDR[1]=absolute_addr[1] RADDR[2]=absolute_addr[2] RADDR[3]=absolute_addr[3] RADDR[4]=absolute_addr[4] RADDR[5]=absolute_addr[5] RADDR[6]=absolute_addr[6] RADDR[7]=absolute_addr[7] RADDR[8]=absolute_addr[8] RADDR[9]=absolute_addr[9] RADDR[10]=$false RCLK=clk_20mhz RCLKE=$true RDATA[0]=memory_data_out_14[0] RDATA[1]=memory_data_out_14[1] RDATA[2]=memory_data_out_14[2] RDATA[3]=memory_data_out_14[3] RDATA[4]=memory_data_out_14[4] RDATA[5]=memory_data_out_14[5] RDATA[6]=memory_data_out_14[6] RDATA[7]=memory_data_out_14[7] RDATA[8]=memory_data_out_14[8] RDATA[9]=memory_data_out_14[9] RDATA[10]=memory_data_out_14[10] RDATA[11]=memory_data_out_14[11] RDATA[12]=memory_data_out_14[12] RDATA[13]=memory_data_out_14[13] RDATA[14]=memory_data_out_14[14] RDATA[15]=memory_data_out_14[15] RE=$true WADDR[0]=waddr[0] WADDR[1]=waddr[1] WADDR[2]=waddr[2] WADDR[3]=waddr[3] WADDR[4]=waddr[4] WADDR[5]=waddr[5] WADDR[6]=waddr[6] WADDR[7]=waddr[7] WADDR[8]=waddr[8] WADDR[9]=waddr[9] WADDR[10]=waddr[10] WCLK=clk_20mhz WCLKE=$true WDATA[0]=memory_data_in[0] WDATA[1]=memory_data_in[1] WDATA[2]=memory_data_in[2] WDATA[3]=memory_data_in[3] WDATA[4]=memory_data_in[4] WDATA[5]=memory_data_in[5] WDATA[6]=memory_data_in[6] WDATA[7]=memory_data_in[7] WDATA[8]=memory_data_in[8] WDATA[9]=memory_data_in[9] WDATA[10]=memory_data_in[10] WDATA[11]=memory_data_in[11] WDATA[12]=memory_data_in[12] WDATA[13]=memory_data_in[13] WDATA[14]=memory_data_in[14] WDATA[15]=memory_data_in[15] WE=write_en14
 .attr src "top.v:912"
-.param INIT_0 0000000000001101000000000000110100000000000011010000000000001101000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001
-.param INIT_1 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
-.param INIT_2 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
-.param INIT_3 0000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001101000000000000110100000000000011010000000000001101
+.param INIT_0 0000000000001111000000000000111100000000000011110000000000001111000000000000101100000000000010110000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001
+.param INIT_1 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111
+.param INIT_2 0000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011010000000000001101000000000000111100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
+.param INIT_3 0000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001111000000000000110100000000000011010000000000001111
 .param INIT_4 0000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001100000000000000110000000000000011000000000000001100
-.param INIT_5 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000001110000000000000111000000000000011100000000000001110
-.param INIT_6 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
-.param INIT_7 0000000000000111000000000000011100000000000001110000000000000111000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
-.param INIT_8 0000000000000011000000000000001100000000000000110000000000000011000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111
-.param INIT_9 0000000000001011000000000000101100000000000010110000000000001011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
-.param INIT_A 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
-.param INIT_B 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
-.param INIT_C 0000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001011000000000000101100000000000010110000000000001011
-.param INIT_D 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001001000000000000100100000000000010010000000000001001
-.param INIT_E 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
-.param INIT_F 0000000000001100000000000000110000000000000011000000000000001100000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
+.param INIT_5 0000000000000111000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000001110000000000000111000000000000011100000000000001110
+.param INIT_6 0000000000000110000000000000011000000000000001100000000000000111000000000000011000000000000001100000000000000110000000000000011000000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011000000000000001100000000000000110
+.param INIT_7 0000000000001111000000000000011100000000000001110000000000000111000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
+.param INIT_8 0000000000000011000000000000101100000000000000110000000000000011000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111
+.param INIT_9 0000000000001111000000000000111100000000000011110000000000001111000000000000011100000000000001110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
+.param INIT_A 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111
+.param INIT_B 0000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000101100000000000010110000000000001111000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
+.param INIT_C 0000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000011010000000000001001000000000000100100000000000010010000000000001011000000000000111100000000000011110000000000001111
+.param INIT_D 0000000000001101000000000000110100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001011000000000000101100000000000010010000000000001001
+.param INIT_E 0000000000001101000000000000110100000000000011110000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
+.param INIT_F 0000000000001100000000000000110000000000000011000000000000001100000000000000110100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001101
 .param READ_MODE 00000000000000000000000000000010
 .param WRITE_MODE 00000000000000000000000000000010
 .gate SB_RAM40_4K RADDR[0]=absolute_addr[0] RADDR[1]=absolute_addr[1] RADDR[2]=absolute_addr[2] RADDR[3]=absolute_addr[3] RADDR[4]=absolute_addr[4] RADDR[5]=absolute_addr[5] RADDR[6]=absolute_addr[6] RADDR[7]=absolute_addr[7] RADDR[8]=absolute_addr[8] RADDR[9]=absolute_addr[9] RADDR[10]=$false RCLK=clk_20mhz RCLKE=$true RDATA[0]=memory_data_out_15[0] RDATA[1]=memory_data_out_15[1] RDATA[2]=memory_data_out_15[2] RDATA[3]=memory_data_out_15[3] RDATA[4]=memory_data_out_15[4] RDATA[5]=memory_data_out_15[5] RDATA[6]=memory_data_out_15[6] RDATA[7]=memory_data_out_15[7] RDATA[8]=memory_data_out_15[8] RDATA[9]=memory_data_out_15[9] RDATA[10]=memory_data_out_15[10] RDATA[11]=memory_data_out_15[11] RDATA[12]=memory_data_out_15[12] RDATA[13]=memory_data_out_15[13] RDATA[14]=memory_data_out_15[14] RDATA[15]=memory_data_out_15[15] RE=$true WADDR[0]=waddr[0] WADDR[1]=waddr[1] WADDR[2]=waddr[2] WADDR[3]=waddr[3] WADDR[4]=waddr[4] WADDR[5]=waddr[5] WADDR[6]=waddr[6] WADDR[7]=waddr[7] WADDR[8]=waddr[8] WADDR[9]=waddr[9] WADDR[10]=waddr[10] WCLK=clk_20mhz WCLKE=$true WDATA[0]=memory_data_in[0] WDATA[1]=memory_data_in[1] WDATA[2]=memory_data_in[2] WDATA[3]=memory_data_in[3] WDATA[4]=memory_data_in[4] WDATA[5]=memory_data_in[5] WDATA[6]=memory_data_in[6] WDATA[7]=memory_data_in[7] WDATA[8]=memory_data_in[8] WDATA[9]=memory_data_in[9] WDATA[10]=memory_data_in[10] WDATA[11]=memory_data_in[11] WDATA[12]=memory_data_in[12] WDATA[13]=memory_data_in[13] WDATA[14]=memory_data_in[14] WDATA[15]=memory_data_in[15] WE=write_en15
 .attr src "top.v:944"
-.param INIT_0 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
-.param INIT_1 0000000000001100000000000000110000000000000011000000000000001100000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
+.param INIT_0 0000000000001111000000000000111100000000000011010000000000001101000000000000111100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
+.param INIT_1 0000000000001100000000000000110000000000000011100000000000001110000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111
 .param INIT_2 0000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100
 .param INIT_3 0000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110
-.param INIT_4 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
-.param INIT_5 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
-.param INIT_6 0000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110
-.param INIT_7 0000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111
+.param INIT_4 0000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110000000000000011100000000000001100000000000000110
+.param INIT_5 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111
+.param INIT_6 0000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001110000000000000011000000000000001100000000000000110
+.param INIT_7 0000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001111000000000000111100000000000011110000000000001111
 .param INIT_8 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000000011000000000000001100000000000000110000000000000011
-.param INIT_9 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
-.param INIT_A 0000000000001001000000000000100100000000000010010000000000001001000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
-.param INIT_B 0000000000001101000000000000110100000000000011010000000000001101000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001
+.param INIT_9 0000000000001111000000000000111100000000000011110000000000001111000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
+.param INIT_A 0000000000001101000000000000110100000000000011010000000000001101000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111
+.param INIT_B 0000000000001101000000000000110100000000000011010000000000001101000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000011010000000000001001
 .param INIT_C 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
-.param INIT_D 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
-.param INIT_E 0000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001101000000000000110100000000000011010000000000001101
+.param INIT_D 0000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001101000000000000110100000000000011010000000000001101
+.param INIT_E 0000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011100000000000001100000000000000110000000000000011000000000000001110000000000000111000000000000011100000000000001111000000000000111100000000000011110000000000001111
 .param INIT_F 0000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001100000000000000110000000000000011000000000000001100
 .param READ_MODE 00000000000000000000000000000010
 .param WRITE_MODE 00000000000000000000000000000010
 .gate SB_RAM40_4K RADDR[0]=absolute_addr[0] RADDR[1]=absolute_addr[1] RADDR[2]=absolute_addr[2] RADDR[3]=absolute_addr[3] RADDR[4]=absolute_addr[4] RADDR[5]=absolute_addr[5] RADDR[6]=absolute_addr[6] RADDR[7]=absolute_addr[7] RADDR[8]=absolute_addr[8] RADDR[9]=absolute_addr[9] RADDR[10]=$false RCLK=clk_20mhz RCLKE=$true RDATA[0]=memory_data_out_16[0] RDATA[1]=memory_data_out_16[1] RDATA[2]=memory_data_out_16[2] RDATA[3]=memory_data_out_16[3] RDATA[4]=memory_data_out_16[4] RDATA[5]=memory_data_out_16[5] RDATA[6]=memory_data_out_16[6] RDATA[7]=memory_data_out_16[7] RDATA[8]=memory_data_out_16[8] RDATA[9]=memory_data_out_16[9] RDATA[10]=memory_data_out_16[10] RDATA[11]=memory_data_out_16[11] RDATA[12]=memory_data_out_16[12] RDATA[13]=memory_data_out_16[13] RDATA[14]=memory_data_out_16[14] RDATA[15]=memory_data_out_16[15] RE=$true WADDR[0]=waddr[0] WADDR[1]=waddr[1] WADDR[2]=waddr[2] WADDR[3]=waddr[3] WADDR[4]=waddr[4] WADDR[5]=waddr[5] WADDR[6]=waddr[6] WADDR[7]=waddr[7] WADDR[8]=waddr[8] WADDR[9]=waddr[9] WADDR[10]=waddr[10] WCLK=clk_20mhz WCLKE=$true WDATA[0]=memory_data_in[0] WDATA[1]=memory_data_in[1] WDATA[2]=memory_data_in[2] WDATA[3]=memory_data_in[3] WDATA[4]=memory_data_in[4] WDATA[5]=memory_data_in[5] WDATA[6]=memory_data_in[6] WDATA[7]=memory_data_in[7] WDATA[8]=memory_data_in[8] WDATA[9]=memory_data_in[9] WDATA[10]=memory_data_in[10] WDATA[11]=memory_data_in[11] WDATA[12]=memory_data_in[12] WDATA[13]=memory_data_in[13] WDATA[14]=memory_data_in[14] WDATA[15]=memory_data_in[15] WE=write_en16
 .attr src "top.v:976"
-.param INIT_0 0000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001101000000000000110100000000000011010000000000001101
+.param INIT_0 0000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001111000000000000111100000000000011110000000000001111
 .param INIT_1 0000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001100000000000000110000000000000011000000000000001100
-.param INIT_2 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000001110000000000000111000000000000011100000000000001110
-.param INIT_3 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
-.param INIT_4 0000000000000111000000000000011100000000000001110000000000000111000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
-.param INIT_5 0000000000000011000000000000001100000000000000110000000000000011000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111
-.param INIT_6 0000000000001011000000000000101100000000000010110000000000001011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
-.param INIT_7 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
-.param INIT_8 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
-.param INIT_9 0000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001011000000000000101100000000000010110000000000001011
-.param INIT_A 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001001000000000000100100000000000010010000000000001001
-.param INIT_B 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
-.param INIT_C 0000000000001100000000000000110000000000000011000000000000001100000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
-.param INIT_D 0000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100
-.param INIT_E 0000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110
-.param INIT_F 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
+.param INIT_2 0000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000001110000000000000111000000000000011100000000000001110
+.param INIT_3 0000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111
+.param INIT_4 0000000000001111000000000000111100000000000001110000000000000111000000000000111000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000111
+.param INIT_5 0000000000000011000000000000001100000000000010110000000000001011000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111
+.param INIT_6 0000000000001111000000000000111100000000000011110000000000001111000000000000011100000000000001110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000010110000000000000011
+.param INIT_7 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111
+.param INIT_8 0000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001011000000000000101100000000000010110000000000001011
+.param INIT_9 0000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000110100000000000010010000000000001101000000000000110100000000000011010000000000001111000000000000111100000000000011110000000000001111
+.param INIT_A 0000000000001101000000000000110100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001011000000000000101100000000000010010000000000001001
+.param INIT_B 0000000000001111000000000000111100000000000011110000000000001111000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
+.param INIT_C 0000000000001110000000000000111000000000000011100000000000001110000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111
+.param INIT_D 0000000000001111000000000000111100000000000011110000000000001111000000000000110100000000000011010000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100
+.param INIT_E 0000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111
+.param INIT_F 0000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011000000000000001100000000000000110
 .param READ_MODE 00000000000000000000000000000010
 .param WRITE_MODE 00000000000000000000000000000010
 .gate SB_RAM40_4K RADDR[0]=absolute_addr[0] RADDR[1]=absolute_addr[1] RADDR[2]=absolute_addr[2] RADDR[3]=absolute_addr[3] RADDR[4]=absolute_addr[4] RADDR[5]=absolute_addr[5] RADDR[6]=absolute_addr[6] RADDR[7]=absolute_addr[7] RADDR[8]=absolute_addr[8] RADDR[9]=absolute_addr[9] RADDR[10]=$false RCLK=clk_20mhz RCLKE=$true RDATA[0]=memory_data_out_17[0] RDATA[1]=memory_data_out_17[1] RDATA[2]=memory_data_out_17[2] RDATA[3]=memory_data_out_17[3] RDATA[4]=memory_data_out_17[4] RDATA[5]=memory_data_out_17[5] RDATA[6]=memory_data_out_17[6] RDATA[7]=memory_data_out_17[7] RDATA[8]=memory_data_out_17[8] RDATA[9]=memory_data_out_17[9] RDATA[10]=memory_data_out_17[10] RDATA[11]=memory_data_out_17[11] RDATA[12]=memory_data_out_17[12] RDATA[13]=memory_data_out_17[13] RDATA[14]=memory_data_out_17[14] RDATA[15]=memory_data_out_17[15] RE=$true WADDR[0]=waddr[0] WADDR[1]=waddr[1] WADDR[2]=waddr[2] WADDR[3]=waddr[3] WADDR[4]=waddr[4] WADDR[5]=waddr[5] WADDR[6]=waddr[6] WADDR[7]=waddr[7] WADDR[8]=waddr[8] WADDR[9]=waddr[9] WADDR[10]=waddr[10] WCLK=clk_20mhz WCLKE=$true WDATA[0]=memory_data_in[0] WDATA[1]=memory_data_in[1] WDATA[2]=memory_data_in[2] WDATA[3]=memory_data_in[3] WDATA[4]=memory_data_in[4] WDATA[5]=memory_data_in[5] WDATA[6]=memory_data_in[6] WDATA[7]=memory_data_in[7] WDATA[8]=memory_data_in[8] WDATA[9]=memory_data_in[9] WDATA[10]=memory_data_in[10] WDATA[11]=memory_data_in[11] WDATA[12]=memory_data_in[12] WDATA[13]=memory_data_in[13] WDATA[14]=memory_data_in[14] WDATA[15]=memory_data_in[15] WE=write_en17
 .attr src "top.v:1008"
 .param INIT_0 0000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110
-.param INIT_1 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
-.param INIT_2 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
-.param INIT_3 0000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110
-.param INIT_4 0000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111
+.param INIT_1 0000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110000000000000011100000000000001100000000000000110
+.param INIT_2 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000111000000000000011000000000000001110000000000000111000000000000011100000000000001110000000000000111
+.param INIT_3 0000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110
+.param INIT_4 0000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000010110000000000000111000000000000011100000000000001110000000000001111
 .param INIT_5 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000000011000000000000001100000000000000110000000000000011
-.param INIT_6 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
-.param INIT_7 0000000000001001000000000000100100000000000010010000000000001001000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
+.param INIT_6 0000000000001011000000000000101100000000000011110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
+.param INIT_7 0000000000001001000000000000100100000000000010010000000000001001000000000000111100000000000010110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000010110000000000001011
 .param INIT_8 0000000000001101000000000000110100000000000011010000000000001101000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001
 .param INIT_9 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
-.param INIT_A 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
-.param INIT_B 0000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001101000000000000110100000000000011010000000000001101
+.param INIT_A 0000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000110100000000000011010000000000001111000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
+.param INIT_B 0000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001101000000000000111100000000000011110000000000001111
 .param INIT_C 0000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001100000000000000110000000000000011000000000000001100
-.param INIT_D 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000001110000000000000111000000000000011100000000000001110
-.param INIT_E 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
+.param INIT_D 0000000000000111000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000001110000000000000111000000000000011100000000000001110
+.param INIT_E 0000000000000111000000000000011000000000000001100000000000000110000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111
 .param INIT_F 0000000000000111000000000000011100000000000001110000000000000111000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
 .param READ_MODE 00000000000000000000000000000010
 .param WRITE_MODE 00000000000000000000000000000010
 .gate SB_RAM40_4K RADDR[0]=absolute_addr[0] RADDR[1]=absolute_addr[1] RADDR[2]=absolute_addr[2] RADDR[3]=absolute_addr[3] RADDR[4]=absolute_addr[4] RADDR[5]=absolute_addr[5] RADDR[6]=absolute_addr[6] RADDR[7]=absolute_addr[7] RADDR[8]=absolute_addr[8] RADDR[9]=absolute_addr[9] RADDR[10]=$false RCLK=clk_20mhz RCLKE=$true RDATA[0]=memory_data_out_18[0] RDATA[1]=memory_data_out_18[1] RDATA[2]=memory_data_out_18[2] RDATA[3]=memory_data_out_18[3] RDATA[4]=memory_data_out_18[4] RDATA[5]=memory_data_out_18[5] RDATA[6]=memory_data_out_18[6] RDATA[7]=memory_data_out_18[7] RDATA[8]=memory_data_out_18[8] RDATA[9]=memory_data_out_18[9] RDATA[10]=memory_data_out_18[10] RDATA[11]=memory_data_out_18[11] RDATA[12]=memory_data_out_18[12] RDATA[13]=memory_data_out_18[13] RDATA[14]=memory_data_out_18[14] RDATA[15]=memory_data_out_18[15] RE=$true WADDR[0]=waddr[0] WADDR[1]=waddr[1] WADDR[2]=waddr[2] WADDR[3]=waddr[3] WADDR[4]=waddr[4] WADDR[5]=waddr[5] WADDR[6]=waddr[6] WADDR[7]=waddr[7] WADDR[8]=waddr[8] WADDR[9]=waddr[9] WADDR[10]=waddr[10] WCLK=clk_20mhz WCLKE=$true WDATA[0]=memory_data_in[0] WDATA[1]=memory_data_in[1] WDATA[2]=memory_data_in[2] WDATA[3]=memory_data_in[3] WDATA[4]=memory_data_in[4] WDATA[5]=memory_data_in[5] WDATA[6]=memory_data_in[6] WDATA[7]=memory_data_in[7] WDATA[8]=memory_data_in[8] WDATA[9]=memory_data_in[9] WDATA[10]=memory_data_in[10] WDATA[11]=memory_data_in[11] WDATA[12]=memory_data_in[12] WDATA[13]=memory_data_in[13] WDATA[14]=memory_data_in[14] WDATA[15]=memory_data_in[15] WE=write_en18
 .attr src "top.v:1040"
-.param INIT_0 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
+.param INIT_0 0000000000000110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000000110000000000000011000000000000001110000000000000110
 .param INIT_1 0000000000000111000000000000011100000000000001110000000000000111000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
 .param INIT_2 0000000000000011000000000000001100000000000000110000000000000011000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111
-.param INIT_3 0000000000001011000000000000101100000000000010110000000000001011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
-.param INIT_4 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
-.param INIT_5 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
+.param INIT_3 0000000000001111000000000000111100000000000011110000000000001111000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
+.param INIT_4 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000011110000000000001111000000000000111100000000000011110000000000001111
+.param INIT_5 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000011110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
 .param INIT_6 0000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001011000000000000101100000000000010110000000000001011
 .param INIT_7 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001001000000000000100100000000000010010000000000001001
 .param INIT_8 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
-.param INIT_9 0000000000001100000000000000110000000000000011000000000000001100000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
+.param INIT_9 0000000000001100000000000000110000000000000011000000000000001100000000000000110100000000000011110000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001111000000000000110100000000000011010000000000001101
 .param INIT_A 0000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100
 .param INIT_B 0000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110
-.param INIT_C 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
-.param INIT_D 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
+.param INIT_C 0000000000001110000000000000111100000000000011110000000000001111000000000000111000000000000011100000000000000110000000000000011100000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
+.param INIT_D 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011110000000000001110
 .param INIT_E 0000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110
 .param INIT_F 0000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111
 .param READ_MODE 00000000000000000000000000000010
@@ -2060,20 +2060,20 @@
 .attr src "top.v:1072"
 .param INIT_0 0000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110
 .param INIT_1 0000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111
-.param INIT_2 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000000011000000000000001100000000000000110000000000000011
+.param INIT_2 0000000000001011000000000000101100000000000010110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000000011000000000000001100000000000000110000000000000011
 .param INIT_3 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
 .param INIT_4 0000000000001001000000000000100100000000000010010000000000001001000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
-.param INIT_5 0000000000001101000000000000110100000000000011010000000000001101000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001
-.param INIT_6 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
+.param INIT_5 0000000000001111000000000000111100000000000011110000000000001111000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001
+.param INIT_6 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011110000000000001111000000000000111100000000000011110000000000001111
 .param INIT_7 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
 .param INIT_8 0000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001101000000000000110100000000000011010000000000001101
-.param INIT_9 0000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001100000000000000110000000000000011000000000000001100
+.param INIT_9 0000000000001110000000000000111000000000000011100000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001101000000000000110100000000000011000000000000001100
 .param INIT_A 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000001110000000000000111000000000000011100000000000001110
-.param INIT_B 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
+.param INIT_B 0000000000000110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000000110000000000000011000000000000001100000000000000110
 .param INIT_C 0000000000000111000000000000011100000000000001110000000000000111000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
 .param INIT_D 0000000000000011000000000000001100000000000000110000000000000011000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111
-.param INIT_E 0000000000001011000000000000101100000000000010110000000000001011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
-.param INIT_F 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
+.param INIT_E 0000000000001111000000000000111100000000000011110000000000001111000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
+.param INIT_F 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000011110000000000001111000000000000111100000000000011110000000000001111
 .param READ_MODE 00000000000000000000000000000010
 .param WRITE_MODE 00000000000000000000000000000010
 .gate SB_RAM40_4K RADDR[0]=absolute_addr[0] RADDR[1]=absolute_addr[1] RADDR[2]=absolute_addr[2] RADDR[3]=absolute_addr[3] RADDR[4]=absolute_addr[4] RADDR[5]=absolute_addr[5] RADDR[6]=absolute_addr[6] RADDR[7]=absolute_addr[7] RADDR[8]=absolute_addr[8] RADDR[9]=absolute_addr[9] RADDR[10]=$false RCLK=clk_20mhz RCLKE=$true RDATA[0]=memory_data_out_2[0] RDATA[1]=memory_data_out_2[1] RDATA[2]=memory_data_out_2[2] RDATA[3]=memory_data_out_2[3] RDATA[4]=memory_data_out_2[4] RDATA[5]=memory_data_out_2[5] RDATA[6]=memory_data_out_2[6] RDATA[7]=memory_data_out_2[7] RDATA[8]=memory_data_out_2[8] RDATA[9]=memory_data_out_2[9] RDATA[10]=memory_data_out_2[10] RDATA[11]=memory_data_out_2[11] RDATA[12]=memory_data_out_2[12] RDATA[13]=memory_data_out_2[13] RDATA[14]=memory_data_out_2[14] RDATA[15]=memory_data_out_2[15] RE=$true WADDR[0]=waddr[0] WADDR[1]=waddr[1] WADDR[2]=waddr[2] WADDR[3]=waddr[3] WADDR[4]=waddr[4] WADDR[5]=waddr[5] WADDR[6]=waddr[6] WADDR[7]=waddr[7] WADDR[8]=waddr[8] WADDR[9]=waddr[9] WADDR[10]=waddr[10] WCLK=clk_20mhz WCLKE=$true WDATA[0]=memory_data_in[0] WDATA[1]=memory_data_in[1] WDATA[2]=memory_data_in[2] WDATA[3]=memory_data_in[3] WDATA[4]=memory_data_in[4] WDATA[5]=memory_data_in[5] WDATA[6]=memory_data_in[6] WDATA[7]=memory_data_in[7] WDATA[8]=memory_data_in[8] WDATA[9]=memory_data_in[9] WDATA[10]=memory_data_in[10] WDATA[11]=memory_data_in[11] WDATA[12]=memory_data_in[12] WDATA[13]=memory_data_in[13] WDATA[14]=memory_data_in[14] WDATA[15]=memory_data_in[15] WE=write_en2
@@ -2098,20 +2098,20 @@
 .param WRITE_MODE 00000000000000000000000000000010
 .gate SB_RAM40_4K RADDR[0]=absolute_addr[0] RADDR[1]=absolute_addr[1] RADDR[2]=absolute_addr[2] RADDR[3]=absolute_addr[3] RADDR[4]=absolute_addr[4] RADDR[5]=absolute_addr[5] RADDR[6]=absolute_addr[6] RADDR[7]=absolute_addr[7] RADDR[8]=absolute_addr[8] RADDR[9]=absolute_addr[9] RADDR[10]=$false RCLK=clk_20mhz RCLKE=$true RDATA[0]=memory_data_out_20[0] RDATA[1]=memory_data_out_20[1] RDATA[2]=memory_data_out_20[2] RDATA[3]=memory_data_out_20[3] RDATA[4]=memory_data_out_20[4] RDATA[5]=memory_data_out_20[5] RDATA[6]=memory_data_out_20[6] RDATA[7]=memory_data_out_20[7] RDATA[8]=memory_data_out_20[8] RDATA[9]=memory_data_out_20[9] RDATA[10]=memory_data_out_20[10] RDATA[11]=memory_data_out_20[11] RDATA[12]=memory_data_out_20[12] RDATA[13]=memory_data_out_20[13] RDATA[14]=memory_data_out_20[14] RDATA[15]=memory_data_out_20[15] RE=$true WADDR[0]=waddr[0] WADDR[1]=waddr[1] WADDR[2]=waddr[2] WADDR[3]=waddr[3] WADDR[4]=waddr[4] WADDR[5]=waddr[5] WADDR[6]=waddr[6] WADDR[7]=waddr[7] WADDR[8]=waddr[8] WADDR[9]=waddr[9] WADDR[10]=waddr[10] WCLK=clk_20mhz WCLKE=$true WDATA[0]=memory_data_in[0] WDATA[1]=memory_data_in[1] WDATA[2]=memory_data_in[2] WDATA[3]=memory_data_in[3] WDATA[4]=memory_data_in[4] WDATA[5]=memory_data_in[5] WDATA[6]=memory_data_in[6] WDATA[7]=memory_data_in[7] WDATA[8]=memory_data_in[8] WDATA[9]=memory_data_in[9] WDATA[10]=memory_data_in[10] WDATA[11]=memory_data_in[11] WDATA[12]=memory_data_in[12] WDATA[13]=memory_data_in[13] WDATA[14]=memory_data_in[14] WDATA[15]=memory_data_in[15] WE=write_en20
 .attr src "top.v:1104"
-.param INIT_0 0000000000001011000000000000101100000000000010110000000000001011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
-.param INIT_1 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
+.param INIT_0 0000000000001111000000000000111100000000000011110000000000001111000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
+.param INIT_1 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000011110000000000001111000000000000111100000000000011110000000000001111
 .param INIT_2 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
 .param INIT_3 0000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001011000000000000101100000000000010110000000000001011
-.param INIT_4 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001001000000000000100100000000000010010000000000001001
+.param INIT_4 0000000000001101000000000000110100000000000011010000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001011000000000000101100000000000010010000000000001001
 .param INIT_5 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
 .param INIT_6 0000000000001100000000000000110000000000000011000000000000001100000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
-.param INIT_7 0000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100
-.param INIT_8 0000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110
-.param INIT_9 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
-.param INIT_A 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
+.param INIT_7 0000000000001111000000000000111100000000000011110000000000001111000000000000110100000000000011010000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100
+.param INIT_8 0000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111
+.param INIT_9 0000000000001110000000000000111000000000000011100000000000001110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
+.param INIT_A 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000011100000000000001110000000000000111000000000000011100000000000001110
 .param INIT_B 0000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110
 .param INIT_C 0000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111
-.param INIT_D 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000000011000000000000001100000000000000110000000000000011
+.param INIT_D 0000000000001011000000000000101100000000000010110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000000011000000000000001100000000000000110000000000000011
 .param INIT_E 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
 .param INIT_F 0000000000001001000000000000100100000000000010010000000000001001000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
 .param READ_MODE 00000000000000000000000000000010
@@ -2120,20 +2120,20 @@
 .attr src "top.v:1136"
 .param INIT_0 0000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
 .param INIT_1 0000000000001001000000000000100100000000000010010000000000001001000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011000000000000101100000000000010110000000000001011
-.param INIT_2 0000000000001101000000000000110100000000000011010000000000001101000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001
-.param INIT_3 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
+.param INIT_2 0000000000001111000000000000111100000000000011110000000000001111000000000000101100000000000010110000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001
+.param INIT_3 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111
 .param INIT_4 0000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101
 .param INIT_5 0000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001101000000000000110100000000000011010000000000001101
-.param INIT_6 0000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001100000000000000110000000000000011000000000000001100
+.param INIT_6 0000000000001110000000000000111000000000000011100000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001111000000000000111100000000000011110000000000001100000000000000110000000000000011000000000000001100
 .param INIT_7 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000001110000000000000111000000000000011100000000000001110
 .param INIT_8 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
 .param INIT_9 0000000000000111000000000000011100000000000001110000000000000111000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
 .param INIT_A 0000000000000011000000000000001100000000000000110000000000000011000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111
-.param INIT_B 0000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
-.param INIT_C 0000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
+.param INIT_B 0000000000000111000000000000011100000000000001110000000000000111000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
+.param INIT_C 0000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000001110000000000000111000000000000011100000000000001110000000000000111
 .param INIT_D 0000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011
 .param INIT_E 0000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000011000000000000001100000000000000110000000000000011
-.param INIT_F 0000000000000101000000000000010100000000000001010000000000000101000000000000010100000000000001010000000000000101000000000000010100000000000001010000000000000101000000000000010100000000000001010000000000000001000000000000000100000000000000010000000000000001
+.param INIT_F 0000000000000101000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000011000000000000001100000000000000010000000000000001
 .param READ_MODE 00000000000000000000000000000010
 .param WRITE_MODE 00000000000000000000000000000010
 .gate SB_RAM40_4K RADDR[0]=absolute_addr[0] RADDR[1]=absolute_addr[1] RADDR[2]=absolute_addr[2] RADDR[3]=absolute_addr[3] RADDR[4]=absolute_addr[4] RADDR[5]=absolute_addr[5] RADDR[6]=absolute_addr[6] RADDR[7]=absolute_addr[7] RADDR[8]=absolute_addr[8] RADDR[9]=absolute_addr[9] RADDR[10]=$false RCLK=clk_20mhz RCLKE=$true RDATA[0]=memory_data_out_22[0] RDATA[1]=memory_data_out_22[1] RDATA[2]=memory_data_out_22[2] RDATA[3]=memory_data_out_22[3] RDATA[4]=memory_data_out_22[4] RDATA[5]=memory_data_out_22[5] RDATA[6]=memory_data_out_22[6] RDATA[7]=memory_data_out_22[7] RDATA[8]=memory_data_out_22[8] RDATA[9]=memory_data_out_22[9] RDATA[10]=memory_data_out_22[10] RDATA[11]=memory_data_out_22[11] RDATA[12]=memory_data_out_22[12] RDATA[13]=memory_data_out_22[13] RDATA[14]=memory_data_out_22[14] RDATA[15]=memory_data_out_22[15] RE=$true WADDR[0]=waddr[0] WADDR[1]=waddr[1] WADDR[2]=waddr[2] WADDR[3]=waddr[3] WADDR[4]=waddr[4] WADDR[5]=waddr[5] WADDR[6]=waddr[6] WADDR[7]=waddr[7] WADDR[8]=waddr[8] WADDR[9]=waddr[9] WADDR[10]=waddr[10] WCLK=clk_20mhz WCLKE=$true WDATA[0]=memory_data_in[0] WDATA[1]=memory_data_in[1] WDATA[2]=memory_data_in[2] WDATA[3]=memory_data_in[3] WDATA[4]=memory_data_in[4] WDATA[5]=memory_data_in[5] WDATA[6]=memory_data_in[6] WDATA[7]=memory_data_in[7] WDATA[8]=memory_data_in[8] WDATA[9]=memory_data_in[9] WDATA[10]=memory_data_in[10] WDATA[11]=memory_data_in[11] WDATA[12]=memory_data_in[12] WDATA[13]=memory_data_in[13] WDATA[14]=memory_data_in[14] WDATA[15]=memory_data_in[15] WE=write_en22
@@ -2243,11 +2243,11 @@
 .param INIT_2 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100
 .param INIT_3 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 .param INIT_4 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-.param INIT_5 0000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000000000000000000000000000000000000000000000000000000
-.param INIT_6 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000010
+.param INIT_5 0000000000000110000000000000011000000000000001100000000000000110000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000000000000000000000000000000000000000000000000000000
+.param INIT_6 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001100000000000000110
 .param INIT_7 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 .param INIT_8 0000000000000001000000000000000100000000000000010000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-.param INIT_9 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001
+.param INIT_9 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000001000000000000000100000000000000010000000000000001
 .param INIT_A 0000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 .param INIT_B 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000
 .param INIT_C 0000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -2280,20 +2280,20 @@
 .attr src "top.v:1392"
 .param INIT_0 0000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000
 .param INIT_1 0000000000000100000000000000010000000000000001000000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000001000000000000010100000000000001010
-.param INIT_2 0000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000110000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100
-.param INIT_3 0000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+.param INIT_2 0000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000110000000000000011000000000000001100000000000000110000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100
+.param INIT_3 0000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000000000000000000000000000000000000000
 .param INIT_4 0000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000010000000000000101000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100
-.param INIT_5 0000000000000001000000000000001100000000000000110000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000011000000000000001100000000000000110000000000000011
-.param INIT_6 0000000000001010000000000000101000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100100000000000010010000000000001001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001
+.param INIT_5 0000000000000011000000000000001100000000000000110000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000011000000000000001100000000000000110000000000000011
+.param INIT_6 0000000000001010000000000000101000000000000010100000000000001010000000000000100000000000000010000000000000001000000000000000100100000000000010010000000000001001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000011
 .param INIT_7 0000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000001010000000000000101000000000000010100000000000001010000000000000101000000000000010100000000000001010
 .param INIT_8 0000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000000000000000000100000000000000010
-.param INIT_9 0000000000000100000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001
-.param INIT_A 0000000000001001000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110000000000000011000000000000001100000000000000010000000000000001000000000000000100
-.param INIT_B 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000100000000000000010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001
-.param INIT_C 0000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+.param INIT_9 0000000000000100000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001
+.param INIT_A 0000000000001001000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001101000000000000110100000000000011010000000000001100000000000000010000000000000001000000000000000100
+.param INIT_B 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001
+.param INIT_C 0000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000000000000000000000000000000000000000
 .param INIT_D 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000000100000000000001010000000000000101000000000000010100000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000
-.param INIT_E 0000000000000000000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
-.param INIT_F 0000000000000100000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010
+.param INIT_E 0000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
+.param INIT_F 0000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000100000000000000010000000000000001000000000000001100000000000000110
 .param READ_MODE 00000000000000000000000000000010
 .param WRITE_MODE 00000000000000000000000000000010
 .gate SB_RAM40_4K RADDR[0]=absolute_addr[0] RADDR[1]=absolute_addr[1] RADDR[2]=absolute_addr[2] RADDR[3]=absolute_addr[3] RADDR[4]=absolute_addr[4] RADDR[5]=absolute_addr[5] RADDR[6]=absolute_addr[6] RADDR[7]=absolute_addr[7] RADDR[8]=absolute_addr[8] RADDR[9]=absolute_addr[9] RADDR[10]=$false RCLK=clk_20mhz RCLKE=$true RDATA[0]=memory_data_out_3[0] RDATA[1]=memory_data_out_3[1] RDATA[2]=memory_data_out_3[2] RDATA[3]=memory_data_out_3[3] RDATA[4]=memory_data_out_3[4] RDATA[5]=memory_data_out_3[5] RDATA[6]=memory_data_out_3[6] RDATA[7]=memory_data_out_3[7] RDATA[8]=memory_data_out_3[8] RDATA[9]=memory_data_out_3[9] RDATA[10]=memory_data_out_3[10] RDATA[11]=memory_data_out_3[11] RDATA[12]=memory_data_out_3[12] RDATA[13]=memory_data_out_3[13] RDATA[14]=memory_data_out_3[14] RDATA[15]=memory_data_out_3[15] RE=$true WADDR[0]=waddr[0] WADDR[1]=waddr[1] WADDR[2]=waddr[2] WADDR[3]=waddr[3] WADDR[4]=waddr[4] WADDR[5]=waddr[5] WADDR[6]=waddr[6] WADDR[7]=waddr[7] WADDR[8]=waddr[8] WADDR[9]=waddr[9] WADDR[10]=waddr[10] WCLK=clk_20mhz WCLKE=$true WDATA[0]=memory_data_in[0] WDATA[1]=memory_data_in[1] WDATA[2]=memory_data_in[2] WDATA[3]=memory_data_in[3] WDATA[4]=memory_data_in[4] WDATA[5]=memory_data_in[5] WDATA[6]=memory_data_in[6] WDATA[7]=memory_data_in[7] WDATA[8]=memory_data_in[8] WDATA[9]=memory_data_in[9] WDATA[10]=memory_data_in[10] WDATA[11]=memory_data_in[11] WDATA[12]=memory_data_in[12] WDATA[13]=memory_data_in[13] WDATA[14]=memory_data_in[14] WDATA[15]=memory_data_in[15] WE=write_en3
@@ -2325,8 +2325,8 @@
 .param INIT_4 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 .param INIT_5 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 .param INIT_6 0000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-.param INIT_7 0000000000000000000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001
-.param INIT_8 0000000000000001000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+.param INIT_7 0000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001
+.param INIT_8 0000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000001
 .param INIT_9 0000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001
 .param INIT_A 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000001
 .param INIT_B 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -2439,11 +2439,11 @@
 .gate SB_RAM40_4K RADDR[0]=absolute_addr[0] RADDR[1]=absolute_addr[1] RADDR[2]=absolute_addr[2] RADDR[3]=absolute_addr[3] RADDR[4]=absolute_addr[4] RADDR[5]=absolute_addr[5] RADDR[6]=absolute_addr[6] RADDR[7]=absolute_addr[7] RADDR[8]=absolute_addr[8] RADDR[9]=absolute_addr[9] RADDR[10]=$false RCLK=clk_20mhz RCLKE=$true RDATA[0]=memory_data_out_9[0] RDATA[1]=memory_data_out_9[1] RDATA[2]=memory_data_out_9[2] RDATA[3]=memory_data_out_9[3] RDATA[4]=memory_data_out_9[4] RDATA[5]=memory_data_out_9[5] RDATA[6]=memory_data_out_9[6] RDATA[7]=memory_data_out_9[7] RDATA[8]=memory_data_out_9[8] RDATA[9]=memory_data_out_9[9] RDATA[10]=memory_data_out_9[10] RDATA[11]=memory_data_out_9[11] RDATA[12]=memory_data_out_9[12] RDATA[13]=memory_data_out_9[13] RDATA[14]=memory_data_out_9[14] RDATA[15]=memory_data_out_9[15] RE=$true WADDR[0]=waddr[0] WADDR[1]=waddr[1] WADDR[2]=waddr[2] WADDR[3]=waddr[3] WADDR[4]=waddr[4] WADDR[5]=waddr[5] WADDR[6]=waddr[6] WADDR[7]=waddr[7] WADDR[8]=waddr[8] WADDR[9]=waddr[9] WADDR[10]=waddr[10] WCLK=clk_20mhz WCLKE=$true WDATA[0]=memory_data_in[0] WDATA[1]=memory_data_in[1] WDATA[2]=memory_data_in[2] WDATA[3]=memory_data_in[3] WDATA[4]=memory_data_in[4] WDATA[5]=memory_data_in[5] WDATA[6]=memory_data_in[6] WDATA[7]=memory_data_in[7] WDATA[8]=memory_data_in[8] WDATA[9]=memory_data_in[9] WDATA[10]=memory_data_in[10] WDATA[11]=memory_data_in[11] WDATA[12]=memory_data_in[12] WDATA[13]=memory_data_in[13] WDATA[14]=memory_data_in[14] WDATA[15]=memory_data_in[15] WE=write_en9
 .attr src "top.v:752"
 .param INIT_0 0000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000001100000000000000110000000000000011000000000000001100
-.param INIT_1 0000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100
+.param INIT_1 0000000000000100000000000000010000000000000011000000000000001100000000000000010000000000000001000000000000001100000000000000110000000000000001000000000000000100000000000000110000000000000011000000000000000100000000000000010000000000000011000000000000001100
 .param INIT_2 0000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100
 .param INIT_3 0000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100
-.param INIT_4 0000000000001000000000000000100000000000000010000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-.param INIT_5 0000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000
+.param INIT_4 0000000000001000000000000000100000000000000011000000000000001100000000000000000000000000000000000000000000000100000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+.param INIT_5 0000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000110000000000000011000000000000001000000000000000100000000000000011000000000000001100
 .param INIT_6 0000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000
 .param INIT_7 0000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000
 .param INIT_8 0000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001000000000000000100000000000000010000000000000001000
@@ -2451,8 +2451,8 @@
 .param INIT_A 0000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100
 .param INIT_B 0000000000001110000000000000111000000000000011100000000000001110000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100
 .param INIT_C 0000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110
-.param INIT_D 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
-.param INIT_E 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
+.param INIT_D 0000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
+.param INIT_E 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110000000000000111000000000000011100000000000001110
 .param INIT_F 0000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110
 .param READ_MODE 00000000000000000000000000000010
 .param WRITE_MODE 00000000000000000000000000000010
