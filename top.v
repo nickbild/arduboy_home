@@ -9,8 +9,6 @@ module top (
 
     // GPIO Outputs.
     output PIN_8,
-    output PIN_9,
-    output PIN_10,
     output PIN_12,
     output PIN_13,
 
@@ -22,6 +20,7 @@ module top (
     input PIN_5,
     input PIN_6,
     input PIN_7,
+    input PIN_10,
     input PIN_11,
     input PIN_14,
     input PIN_15,
@@ -31,10 +30,7 @@ module top (
     input PIN_19,
     input PIN_20,
     input PIN_21,
-    input PIN_22,
-    input PIN_23,
-    input PIN_24,
-    input PIN_31
+    input PIN_22
 );
 
     // drive USB pull-up resistor to '0' to disable USB
@@ -43,8 +39,6 @@ module top (
     // VGA output signals.
     wire clk_20mhz;
     assign PIN_8 = red;
-    assign PIN_9 = green;
-    assign PIN_10 = blue;
     assign PIN_12 = h_sync;
     assign PIN_13 = v_sync;
 
@@ -62,38 +56,25 @@ module top (
     wire interrupt;
     assign interrupt = PIN_11;
 
-    // Address inputs.
-    wire a0;
-    wire a1;
-    wire a2;
-    wire a3;
-    wire a4;
-    wire a5;
-    wire a6;
-    wire a7;
-    wire a8;
-    wire a9;
-    wire a10;
-    wire a11;
-    wire a12;
-    wire a13;
-    wire a14;
+    wire high_address_latch;
+    assign high_address_latch = PIN_10;
 
-    assign a0 = PIN_1;
-    assign a1 = PIN_2;
-    assign a2 = PIN_3;
-    assign a3 = PIN_31;
-    assign a4 = PIN_5;
-    assign a5 = PIN_6;
-    assign a6 = PIN_7;
-    assign a7 = PIN_14;
-    assign a8 = PIN_15;
-    assign a9 = PIN_16;
-    assign a10 = PIN_17;
-    assign a11 = PIN_18;
-    assign a12 = PIN_19;
-    assign a13 = PIN_20;
-    assign a14 = PIN_21;
+    // Address inputs.
+    reg a0;
+    reg a1;
+    reg a2;
+    reg a3;
+    reg a4;
+    reg a5;
+    reg a6;
+    reg a7;
+    reg a8;
+    reg a9;
+    reg a10;
+    reg a11;
+    reg a12;
+    reg a13;
+    reg a14;
 
     // RGB data inputs.
     wire r_in;
@@ -101,8 +82,8 @@ module top (
     wire b_in;
 
     assign r_in = PIN_22;
-    assign g_in = PIN_23;
-    assign b_in = PIN_24;
+    assign g_in = 1'b0;
+    assign b_in = 1'b0;
 
     // BRAM
     reg [15:0] memory_data_in;  // bits: 13, 9, 5, 1
@@ -233,130 +214,68 @@ module top (
         if (h_counter > 199 || v_counter > 599)  // Horizontal/vertical blanking.
       	begin
       	  red <= 0;
-          green <= 0;
-          blue <= 0;
       	end else // Active video.
         begin
           if (absolute_addr > 29695) begin
             red <= memory_data_out_30[1];
-            green <= memory_data_out_30[5];
-            blue <= memory_data_out_30[9];
           end else if (absolute_addr > 28671) begin
-            red <= memory_data_out_29[1];
-            green <= memory_data_out_29[5];
-            blue <= memory_data_out_29[9];
+            red <= memory_data_out_29[1];;
           end else if (absolute_addr > 27647) begin
             red <= memory_data_out_28[1];
-            green <= memory_data_out_28[5];
-            blue <= memory_data_out_28[9];
           end else if (absolute_addr > 26623) begin
             red <= memory_data_out_27[1];
-            green <= memory_data_out_27[5];
-            blue <= memory_data_out_27[9];
           end else if (absolute_addr > 25599) begin
             red <= memory_data_out_26[1];
-            green <= memory_data_out_26[5];
-            blue <= memory_data_out_26[9];
           end else if (absolute_addr > 24575) begin
             red <= memory_data_out_25[1];
-            green <= memory_data_out_25[5];
-            blue <= memory_data_out_25[9];
           end else if (absolute_addr > 23551) begin
             red <= memory_data_out_24[1];
-            green <= memory_data_out_24[5];
-            blue <= memory_data_out_24[9];
           end else if (absolute_addr > 22527) begin
             red <= memory_data_out_23[1];
-            green <= memory_data_out_23[5];
-            blue <= memory_data_out_23[9];
           end else if (absolute_addr > 21503) begin
             red <= memory_data_out_22[1];
-            green <= memory_data_out_22[5];
-            blue <= memory_data_out_22[9];
           end else if (absolute_addr > 20479) begin
             red <= memory_data_out_21[1];
-            green <= memory_data_out_21[5];
-            blue <= memory_data_out_21[9];
           end else if (absolute_addr > 19455) begin
             red <= memory_data_out_20[1];
-            green <= memory_data_out_20[5];
-            blue <= memory_data_out_20[9];
           end else if (absolute_addr > 18431) begin
             red <= memory_data_out_19[1];
-            green <= memory_data_out_19[5];
-            blue <= memory_data_out_19[9];
           end else if (absolute_addr > 17407) begin
             red <= memory_data_out_18[1];
-            green <= memory_data_out_18[5];
-            blue <= memory_data_out_18[9];
           end else if (absolute_addr > 16383) begin
             red <= memory_data_out_17[1];
-            green <= memory_data_out_17[5];
-            blue <= memory_data_out_17[9];
           end else if (absolute_addr > 15359) begin
             red <= memory_data_out_16[1];
-            green <= memory_data_out_16[5];
-            blue <= memory_data_out_16[9];
           end else if (absolute_addr > 14335) begin
             red <= memory_data_out_15[1];
-            green <= memory_data_out_15[5];
-            blue <= memory_data_out_15[9];
           end else if (absolute_addr > 13311) begin
             red <= memory_data_out_14[1];
-            green <= memory_data_out_14[5];
-            blue <= memory_data_out_14[9];
           end else if (absolute_addr > 12287) begin
             red <= memory_data_out_13[1];
-            green <= memory_data_out_13[5];
-            blue <= memory_data_out_13[9];
           end else if (absolute_addr > 11263) begin
             red <= memory_data_out_12[1];
-            green <= memory_data_out_12[5];
-            blue <= memory_data_out_12[9];
           end else if (absolute_addr > 10239) begin
             red <= memory_data_out_11[1];
-            green <= memory_data_out_11[5];
-            blue <= memory_data_out_11[9];
           end else if (absolute_addr > 9215) begin
             red <= memory_data_out_10[1];
-            green <= memory_data_out_10[5];
-            blue <= memory_data_out_10[9];
           end else if (absolute_addr > 8191) begin
             red <= memory_data_out_9[1];
-            green <= memory_data_out_9[5];
-            blue <= memory_data_out_9[9];
           end else if (absolute_addr > 7167) begin
             red <= memory_data_out_8[1];
-            green <= memory_data_out_8[5];
-            blue <= memory_data_out_8[9];
           end else if (absolute_addr > 6143) begin
             red <= memory_data_out_7[1];
-            green <= memory_data_out_7[5];
-            blue <= memory_data_out_7[9];
           end else if (absolute_addr > 5119) begin
             red <= memory_data_out_6[1];
-            green <= memory_data_out_6[5];
-            blue <= memory_data_out_6[9];
           end else if (absolute_addr > 4095) begin
             red <= memory_data_out_5[1];
-            green <= memory_data_out_5[5];
-            blue <= memory_data_out_5[9];
           end else if (absolute_addr > 3071) begin
             red <= memory_data_out_4[1];
-            green <= memory_data_out_4[5];
-            blue <= memory_data_out_4[9];
           end else if (absolute_addr > 2047) begin
             red <= memory_data_out_3[1];
-            green <= memory_data_out_3[5];
-            blue <= memory_data_out_3[9];
           end else if (absolute_addr > 1023) begin
             red <= memory_data_out_2[1];
-            green <= memory_data_out_2[5];
-            blue <= memory_data_out_2[9];
           end else begin
             red <= memory_data_out_1[1];
-            green <= memory_data_out_1[5];
-            blue <= memory_data_out_1[9];
           end
         end
 
@@ -417,8 +336,27 @@ module top (
       write_en29 <= 0;
       write_en30 <= 0;
 
+      if (high_address_latch) begin
+        a7 <= PIN_14;
+        a8 <= PIN_15;
+        a9 <= PIN_16;
+        a10 <= PIN_17;
+        a11 <= PIN_18;
+        a12 <= PIN_19;
+        a13 <= PIN_20;
+        a14 <= PIN_21;
+      end
+
       if (interrupt && !interrupt_active) begin
         interrupt_active = 1;
+
+        a0 = PIN_14;
+        a1 = PIN_15;
+        a2 = PIN_16;
+        a3 = PIN_17;
+        a4 = PIN_18;
+        a5 = PIN_19;
+        a6 = PIN_20;
 
         memory_data_in = {1'b1,1'b1,1'b1,1'b1,1'b1,1'b1,b_in,1'b1,1'b1,1'b1,g_in,1'b1,1'b1,1'b1,r_in,1'b1};
         w_absolute_addr = {a14, a13, a12, a11, a10, a9, a8, a7, a6, a5, a4, a3, a2, a1, a0};
