@@ -7,7 +7,6 @@
 #include "Arduboy2Core.h"
 
 #include <avr/wdt.h>
-#include "Arduino.h"
 
 
 
@@ -315,36 +314,159 @@ void Arduboy2Core::displayOn()
 
 void Arduboy2Core::paintVGA(uint8_t image[], bool clear)
 {
-  uint8_t byte;
+  uint16_t byte_pos;
   uint8_t bit;
-  DDRC |= (1<<PORTC7);
+  uint8_t pixel_val;
+
+  uint16_t vga_x;
+  uint16_t vga_y;
+  uint16_t vga_pixel;
+  
+  DDRF |= (1<<PORTF0);  // A5 - a0, 7
+  DDRF |= (1<<PORTF1);  // A4 - a1, 8
+
+  DDRD |= (1<<PORTD0);  // D3 - a2, 9
+  DDRD |= (1<<PORTD1);  // D2 - a3, 10
+  DDRD |= (1<<PORTD4);  // D4 - a4, 11
+  DDRD |= (1<<PORTD6);  // D12 - a5, 12
+  DDRD |= (1<<PORTD7);  // D6 - a6, 13
+
+  DDRB |= (1<<PORTB1);  // D15 - a14
+  DDRB |= (1<<PORTB2);  // D16 - high address latch
+  DDRB |= (1<<PORTB6);  // D10 - pixel data
+  DDRB |= (1<<PORTB5);  // D9 - interupt
+  
   Serial.begin(9600);
-  delay(1000);
+  // delay(1000);
 
   // Get image data, byte-by-byte.
-  // byte number: int(y/8) * 128 + x   -- position in byte: y % 8
-  for (int i = 0; i < (HEIGHT*WIDTH)/8; i++)
-  {
-    // Get current byte.
-    // byte = pgm_read_byte(image + i);
+  // Byte number: int(y/8) * 128 + x
+  // Position in byte: y % 8
+  for (int x = 0; x < WIDTH; x++) {
+    for (int y = 0; y < HEIGHT; y++) {
+      byte_pos = ((y / 8) * 128) + x;
+      bit = y % 8;
 
-    Serial.println(image[i], BIN);
+      // Pixel value for current x, y.
+      if (clear) {
+        pixel_val = 0;
+      } else {
+        pixel_val = bitRead(image[byte_pos], bit);
+      }
 
-    // for (int j=0; j<8; j++) {
-    //   bit = bitRead(byte, j);
+      // Translate pixel address to VGA coordinate space.
+      vga_x = x + 36;
+      vga_y = y + 43;
+      vga_pixel = (vga_y * 200) + vga_x;
+      
+      // Set high bits of address.
+      if (bitRead(vga_pixel, 7)) {
+        PORTF |= (1<<PORTF0);
+      } else {
+        PORTF &= ~(1<<PORTF0);
+      }
 
-    //   if (bit == 1) {
-    //     PORTC |= (1<<PORTC7);
-    //   } else {
-    //     PORTC &= ~(1<<PORTC7);
-    //   }
+      if (bitRead(vga_pixel, 8)) {
+        PORTF |= (1<<PORTF1);
+      } else {
+        PORTF &= ~(1<<PORTF1);
+      }
 
-    //   delay(1000);
-    // }
+      if (bitRead(vga_pixel, 9)) {
+        PORTD |= (1<<PORTD0);
+      } else {
+        PORTD &= ~(1<<PORTD0);
+      }
+    
+      if (bitRead(vga_pixel, 10)) {
+        PORTD |= (1<<PORTD1);
+      } else {
+        PORTD &= ~(1<<PORTD1);
+      }
+
+      if (bitRead(vga_pixel, 11)) {
+        PORTD |= (1<<PORTD4);
+      } else {
+        PORTD &= ~(1<<PORTD4);
+      }
+
+      if (bitRead(vga_pixel, 12)) {
+        PORTD |= (1<<PORTD6);
+      } else {
+        PORTD &= ~(1<<PORTD6);
+      }
+
+      if (bitRead(vga_pixel, 13)) {
+        PORTD |= (1<<PORTD7);
+      } else {
+        PORTD &= ~(1<<PORTD7);
+      }
+
+      if (bitRead(vga_pixel, 14)) {
+        PORTB |= (1<<PORTB1);
+      } else {
+        PORTB &= ~(1<<PORTB1);
+      }
+
+      // High address latch.
+      PORTB |= (1<<PORTB2);
+      PORTB &= ~(1<<PORTB2);
+
+      // Set low bits of address
+      if (bitRead(vga_pixel, 0)) {
+        PORTF |= (1<<PORTF0);
+      } else {
+        PORTF &= ~(1<<PORTF0);
+      }
+
+      if (bitRead(vga_pixel, 1)) {
+        PORTF |= (1<<PORTF1);
+      } else {
+        PORTF &= ~(1<<PORTF1);
+      }
+
+      if (bitRead(vga_pixel, 2)) {
+        PORTD |= (1<<PORTD0);
+      } else {
+        PORTD &= ~(1<<PORTD0);
+      }
+    
+      if (bitRead(vga_pixel, 3)) {
+        PORTD |= (1<<PORTD1);
+      } else {
+        PORTD &= ~(1<<PORTD1);
+      }
+
+      if (bitRead(vga_pixel, 4)) {
+        PORTD |= (1<<PORTD4);
+      } else {
+        PORTD &= ~(1<<PORTD4);
+      }
+
+      if (bitRead(vga_pixel, 5)) {
+        PORTD |= (1<<PORTD6);
+      } else {
+        PORTD &= ~(1<<PORTD6);
+      }
+
+      if (bitRead(vga_pixel, 6)) {
+        PORTD |= (1<<PORTD7);
+      } else {
+        PORTD &= ~(1<<PORTD7);
+      }
+
+      // Set pixel value
+      if (pixel_val) {
+        PORTB |= (1<<PORTB6);
+      } else {
+        PORTB &= ~(1<<PORTB6);
+      }
+
+      // Send interrupt to update pixel value for specified address.
+      PORTB |= (1<<PORTB5);
+      PORTB &= ~(1<<PORTB5);
+    }
   }
-
-   PORTC &= ~(1<<PORTC7);
-
 }
 
 void Arduboy2Core::paint8Pixels(uint8_t pixels)
