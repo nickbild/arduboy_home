@@ -326,18 +326,23 @@ void Arduboy2Core::paintVGA(uint8_t image[], bool clear)
   DDRF |= (1<<PORTF1);  // A4 - a1, 8
 
   DDRD |= (1<<PORTD0);  // D3 - a2, 9
-  DDRD |= (1<<PORTD1);  // D2 - a3, 10
+  DDRB |= (1<<PORTB5);  // D9 - a3, 10
   DDRD |= (1<<PORTD4);  // D4 - a4, 11
   DDRD |= (1<<PORTD6);  // D12 - a5, 12
   DDRD |= (1<<PORTD7);  // D6 - a6, 13
 
-  DDRB |= (1<<PORTB1);  // D15 - a14
-  DDRB |= (1<<PORTB2);  // D16 - high address latch
+  DDRD |= (1<<PORTD3);  // D1 - a14
+  DDRB |= (1<<PORTB7);  // D11 - high address latch
   DDRB |= (1<<PORTB6);  // D10 - pixel data
-  DDRB |= (1<<PORTB5);  // D9 - interupt
+  DDRD |= (1<<PORTD1);  // D2 - interupt
+
+  DDRD |= (1<<PORTD2);  // D0 - a14
   
-  Serial.begin(9600);
+  // Serial.begin(9600);
   // delay(1000);
+
+  // Enable writing to VGA.
+  PORTD &= ~(1<<PORTD2);
 
   // Get image data, byte-by-byte.
   // Byte number: int(y/8) * 128 + x
@@ -349,7 +354,8 @@ void Arduboy2Core::paintVGA(uint8_t image[], bool clear)
 
       // Pixel value for current x, y.
       if (clear) {
-        pixel_val = 0;
+        // pixel_val = 0;
+        pixel_val = bitRead(image[byte_pos], bit);
       } else {
         pixel_val = bitRead(image[byte_pos], bit);
       }
@@ -379,9 +385,9 @@ void Arduboy2Core::paintVGA(uint8_t image[], bool clear)
       }
     
       if (bitRead(vga_pixel, 10)) {
-        PORTD |= (1<<PORTD1);
+        PORTB |= (1<<PORTB5);
       } else {
-        PORTD &= ~(1<<PORTD1);
+        PORTB &= ~(1<<PORTB5);
       }
 
       if (bitRead(vga_pixel, 11)) {
@@ -403,14 +409,14 @@ void Arduboy2Core::paintVGA(uint8_t image[], bool clear)
       }
 
       if (bitRead(vga_pixel, 14)) {
-        PORTB |= (1<<PORTB1);
+        PORTD |= (1<<PORTD3);
       } else {
-        PORTB &= ~(1<<PORTB1);
+        PORTD &= ~(1<<PORTD3);
       }
 
       // High address latch.
-      PORTB |= (1<<PORTB2);
-      PORTB &= ~(1<<PORTB2);
+      PORTB |= (1<<PORTB7);
+      PORTB &= ~(1<<PORTB7);
 
       // Set low bits of address
       if (bitRead(vga_pixel, 0)) {
@@ -432,9 +438,9 @@ void Arduboy2Core::paintVGA(uint8_t image[], bool clear)
       }
     
       if (bitRead(vga_pixel, 3)) {
-        PORTD |= (1<<PORTD1);
+        PORTB |= (1<<PORTB5);
       } else {
-        PORTD &= ~(1<<PORTD1);
+        PORTB &= ~(1<<PORTB5);
       }
 
       if (bitRead(vga_pixel, 4)) {
@@ -463,10 +469,13 @@ void Arduboy2Core::paintVGA(uint8_t image[], bool clear)
       }
 
       // Send interrupt to update pixel value for specified address.
-      PORTB |= (1<<PORTB5);
-      PORTB &= ~(1<<PORTB5);
+      PORTD |= (1<<PORTD1);
+      PORTD &= ~(1<<PORTD1);
     }
   }
+
+  // Disable writing to VGA.
+  PORTD |= (1<<PORTD2);
 }
 
 void Arduboy2Core::paint8Pixels(uint8_t pixels)
@@ -598,48 +607,12 @@ void Arduboy2Core::flipHorizontal(bool flipped)
 
 void Arduboy2Core::setRGBled(uint8_t red, uint8_t green, uint8_t blue)
 {
-#ifdef ARDUBOY_10 // RGB, all the pretty colors
-  // timer 0: Fast PWM, OC0A clear on compare / set at top
-  // We must stay in Fast PWM mode because timer 0 is used for system timing.
-  // We can't use "inverted" mode because it won't allow full shut off.
-  TCCR0A = _BV(COM0A1) | _BV(WGM01) | _BV(WGM00);
-  OCR0A = 255 - green;
-  // timer 1: Phase correct PWM 8 bit
-  // OC1A and OC1B set on up-counting / clear on down-counting (inverted). This
-  // allows the value to be directly loaded into the OCR with common anode LED.
-  TCCR1A = _BV(COM1A1) | _BV(COM1A0) | _BV(COM1B1) | _BV(COM1B0) | _BV(WGM10);
-  OCR1AL = blue;
-  OCR1BL = red;
-#elif defined(AB_DEVKIT)
-  // only blue on DevKit, which is not PWM capable
-  (void)red;    // parameter unused
-  (void)green;  // parameter unused
-  bitWrite(BLUE_LED_PORT, BLUE_LED_BIT, blue ? RGB_ON : RGB_OFF);
-#endif
+  // NAB: Won't be needing this.
 }
 
 void Arduboy2Core::setRGBled(uint8_t color, uint8_t val)
 {
-#ifdef ARDUBOY_10
-  if (color == RED_LED)
-  {
-    OCR1BL = val;
-  }
-  else if (color == GREEN_LED)
-  {
-    OCR0A = 255 - val;
-  }
-  else if (color == BLUE_LED)
-  {
-    OCR1AL = val;
-  }
-#elif defined(AB_DEVKIT)
-  // only blue on DevKit, which is not PWM capable
-  if (color == BLUE_LED)
-  {
-    bitWrite(BLUE_LED_PORT, BLUE_LED_BIT, val ? RGB_ON : RGB_OFF);
-  }
-#endif
+  // NAB: Won't be needing this.
 }
 
 void Arduboy2Core::freeRGBled()
