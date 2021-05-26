@@ -312,7 +312,7 @@ void Arduboy2Core::displayOn()
 
 /* Drawing */
 
-void Arduboy2Core::paintVGA(uint8_t image[], bool clear)
+void Arduboy2Core::paintVGA(uint8_t image[])
 {
   uint16_t byte_pos;
   uint8_t bit;
@@ -353,12 +353,7 @@ void Arduboy2Core::paintVGA(uint8_t image[], bool clear)
       bit = y % 8;
 
       // Pixel value for current x, y.
-      if (clear) {
-        // pixel_val = 0;
-        pixel_val = bitRead(image[byte_pos], bit);
-      } else {
-        pixel_val = bitRead(image[byte_pos], bit);
-      }
+      pixel_val = bitRead(image[byte_pos], bit);
 
       // Translate pixel address to VGA coordinate space.
       vga_x = x + 36;

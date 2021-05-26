@@ -517,7 +517,7 @@ class Arduboy2Core : public Arduboy2NoUSB
      */
     static void paint8Pixels(uint8_t pixels);
 
-    static void paintVGA(uint8_t image[], bool clear = false);
+    static void paintVGA(uint8_t image[]);
 
     /** \brief
      * Paints an entire image directly to the display from program memory.

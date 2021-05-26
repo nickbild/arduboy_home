@@ -998,14 +998,19 @@ void Arduboy2Base::display()
 {
   // NAB: Replace with VGA display.
   // paintScreen(sBuffer);
-  display(false);
+  paintVGA(sBuffer);
 }
 
 void Arduboy2Base::display(bool clear)
 {
   // NAB: Replace with VGA display.
   // paintScreen(sBuffer, clear);
-  paintVGA(sBuffer, clear);
+  if (clear) {
+    for (int i = 0; i < (HEIGHT*WIDTH)/8; i++) {
+      sBuffer[i] = 0;
+    }
+  }
+  paintVGA(sBuffer);
 }
 
 uint8_t* Arduboy2Base::getBuffer()
