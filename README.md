@@ -16,6 +16,9 @@ VGA output is achieved with a TinyFPGA BX.  I used a modified version of my [Min
 
 ## Media
 
+YouTube:  
+https://www.youtube.com/watch?v=t3avYf9wDTU
+
 Screenshot:
 ![Screenshot](https://raw.githubusercontent.com/nickbild/arduboy_home/main/media/screenshot_sm.jpg)
 
