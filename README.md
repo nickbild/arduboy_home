@@ -2,6 +2,10 @@
 
 Play Arduboy games on the big screen with the Arduboy Home game console.  The tiny OLED display of the Arduboy has been replaced with VGA output, and the Home has a separate, handheld controller.  The home console is compatible with the existing Arduboy game library.
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/nickbild/arduboy_home/main/media/teaser.gif">
+</p>
+
 Arduboy Home was inspired by (but is not affiliated with) the open source [Arduboy](https://arduboy.com/) handheld gaming platform.
 
 ## How It Works
