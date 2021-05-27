@@ -16,6 +16,9 @@ VGA output is achieved with a TinyFPGA BX.  I used a modified version of my [Min
 
 ## Media
 
+Screenshot:
+![Screenshot](https://raw.githubusercontent.com/nickbild/arduboy_home/main/media/screenshot_sm.jpg)
+
 ## Bill of Materials
 
 - 1 x Arduino Micro (or similar, with ATmega32U4 microcontroller)
